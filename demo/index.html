@@ -412,6 +412,29 @@ setTimeout(basicTerminalApp, term2value)
 .card {
   border-radius: 40px;
 }
+  
+/* TO BE USED FOR NEW STYLES 
+#chatbox > pre:last-child > div > div:last-child { animation: slide-in 0.5s ease-out; } 
+*/ 
+
+/* animation for  BOT_MSG */ 
+#chatbox > pre:last-child > div > div > div:last-child {
+  animation: slide-in-bot-msg 0.5s ease-out;
+}
+
+
+/* Keyframe animation  for bot msg */
+@keyframes slide-in-bot-msg {
+    from {
+        right: -50px; /* Start offscreen */
+        opacity: 0;
+    }
+    to {
+        right: 0; /* End onscreen */
+        opacity: 1;
+    }
+}  
+  
     </style>
     <title>Chatbot</title>
   </head>
