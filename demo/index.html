@@ -387,7 +387,6 @@ var agent = {
          
   function SetUserTimeStamp(status){
    SetTimeStampedMessage = status 
-   term2 = Termino(document.getElementById("Example_Terminal_2"), null, DEF_SETTINGS)
   }
     
          
@@ -405,6 +404,9 @@ async function basicTerminalApp() {
 // call Termino.js / your terminal for inital input
 let term2value = await term2.input("")
 
+
+ term2.output(SetTimeStampedMessage + "current status - fresh / restart.")
+
 if (term2value){
   
    term2value = term2value.trim()
@@ -412,7 +414,9 @@ if (term2value){
    if(term2value.length != 0){
     let response = await nlp.process('en', term2value);
      SetUserTimeStamp(true)
+     term2.output(SetTimeStampedMessage + "is set on")
    }else{
+     term2.output(SetTimeStampedMessage + "is set off")
      SetUserTimeStamp(false)
    }
    // term2.speak(response)
