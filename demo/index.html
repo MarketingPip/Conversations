@@ -168,14 +168,8 @@ Review.....  ${search_results[0].poster_path}`)
           } else{
             type = term2.input
           }
-         return type(`<div class="d-flex justify-content-start">
-        <div class="card mb-3">
-          <div class="card-body bot-card-body">
-            <p class="card-text">${message}</p>
-          </div>
-        </div>
-      </div>
-      `)  
+        return type(`<div class="d-flex justify-content-start"><div class="message-bubble bot">${message}</div></div>`)  
+        
         
         }
           
@@ -388,7 +382,7 @@ if (term2value.trim() != ""){
   
 }      
   //  NEED TO FIGURE OUT FIX FOR CSS / SCROLL TO BOTTOM - BOOTSTRAP ISSUE - TERMINO.JS HAS BUILT IT SCROLL TO BOTTOM ON COMMANDS.
-  //window.scrollTo(0, document.body.scrollHeight);
+window.scrollTo(0, document.getElementById("chatbot").scrollHeight);
   
 // repeat
 basicTerminalApp()
@@ -411,33 +405,30 @@ basicTerminalApp()
 
     <link rel="stylesheet" href="static/style.css">
 <style>
-  .user-card-body {
- /* OLD COLOR
-  background-color: #ff0080;
- */
-  background-color: #1ca315;
+
+/* Chatbot message bubbles */
+.message-bubble {
+  position: relative;
+  padding: 12px 18px;
+  margin: 8px 0;
+  background-color: #f1f0f0;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Align bubbles to the right for user messages */
+.message-bubble.user {
+  align-self: flex-end;
+  background-color: #0084ff;
   color: white;
-  border-radius: 40px;
 }
-
-.bot-card-body {
-  background-color: #f7f7f7;
-  border-radius: 40px;
-}
-
-.card {
-  border-radius: 40px;
-}
-  
-/* TO BE USED FOR NEW STYLES 
-#chatbox > pre:last-child > div > div:last-child { animation: slide-in 0.5s ease-out; } 
-*/ 
 
 /* animation for  BOT_MSG */ 
-#chatbox > pre:last-child > div > div > div:last-child {
+
+#chatbox > div:last-child > div:last-child {
   animation: slide-in-bot-msg 0.5s ease-out;
 }
-
+ 
 
 /* Keyframe animation  for bot msg */
 @keyframes slide-in-bot-msg {
