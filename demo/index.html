@@ -375,9 +375,9 @@ async function basicTerminalApp() {
 // call Termino.js / your terminal for inital input
 let term2value = await term2.input("")
 
-if (term2value.trim() != ""){
+if (term2value != ""){
   
-    const response = await nlp.process('en', term2value);
+    term2value = await nlp.process('en', term2value);
    
   
 }      
