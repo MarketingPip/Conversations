@@ -16,7 +16,7 @@ import {Termino} from "https://cdn.jsdelivr.net/gh/MarketingPip/Termino.js@Marke
    
  let TimeStamp_Template = ""
  
- if(SetTimeStampedMessage == true){
+ if(SetTimeStampedMessage){
     TimeStamp_Template = `<p class="timestamp-user">0:00AM</p>`
  }else{
     TimeStamp_Template = ``
@@ -387,6 +387,7 @@ var agent = {
          
   function SetUserTimeStamp(status){
    SetTimeStampedMessage = status 
+   return SetTimeStampedMessage 
   }
     
          
@@ -413,9 +414,15 @@ if (term2value){
   
    SetUserTimeStamp(false)
   
+  SetTimeStampedMessage = false
+  
    if(term2value.length != 0){
     let response = await nlp.process('en', term2value);
      SetUserTimeStamp(true)
+     
+     SetTimeStampedMessage = true
+   } else{
+    SetTimeStampedMessage = false 
    }
    // term2.speak(response)
   
