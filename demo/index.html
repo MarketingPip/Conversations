@@ -383,8 +383,11 @@ let term2value = await term2.input("")
 
 if (term2value){
   
+   term2value = term2value.trim()
+  
+   if(term2value.length != 0){
     let response = await nlp.process('en', term2value);
-   
+   }
    // term2.speak(response)
   
 }
