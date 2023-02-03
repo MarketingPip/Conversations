@@ -308,9 +308,8 @@ return;
      
   
 var agent = {
-   canyouhelp: async function (input){
-              let question = await Bot_MSG(`How can I help you with ${input}`)
-               Bot_MSG(`I am sorry I can not help you with ${input}`, "output")
+   canyouhelp: function (input){
+               Bot_MSG(`I am sorry I can not help you, I am still learning!`, "output")
                return
    }
 }
@@ -338,8 +337,8 @@ var agent = {
           let functions = ['greetings.hello', 'search.github', 'agent.canyouhelp']
           
           for (const option in functions){
-            if (input.intent === functions[option]) {  
-              output.answer = await eval(functions[option] + `(${input})`)  
+            if (input.intent === functions[option]) {        
+              output.answer = await eval(functions[option] + `("${input.utterance}")`)  
             }
           } 
             if (output.answer != undefined){
