@@ -339,7 +339,7 @@ var agent = {
           
           for (const option in functions){
             if (input.intent === functions[option]) {  
-              output.answer = await eval(functions[option] + `${input}`)  
+              output.answer = await eval(functions[option] + `(${input})`)  
             }
           } 
             if (output.answer != undefined){
