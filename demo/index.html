@@ -184,7 +184,7 @@ Review.....  ${search_results[0].poster_path}`)
           } else{
             type = term2.input
           }
-        return type(`<div class="d-flex justify-content-start"><div class="message-bubble bot">${message}</div></div>`)  
+        return type(`<div class="d-flex justify-content-start"><div class="message-bubble bot">${message} ${TimeStamp_Template}</div></div>`)  
         
         
         }
@@ -411,11 +411,14 @@ if (term2value){
   
    term2value = term2value.trim()
   
+  term2.output(TimeStamp_Template)
+  
    if(term2value.length != 0){
     let response = await nlp.process('en', term2value);
      SetUserTimeStamp(true)
    }else{
      SetUserTimeStamp(false)
+     term2.output(TimeStamp_Template)
    }
    // term2.speak(response)
   
