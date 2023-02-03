@@ -16,7 +16,7 @@ import {Termino} from "https://cdn.jsdelivr.net/gh/MarketingPip/Termino.js@Marke
    
  let TimeStamp_Template = ""
  
- if(SetTimeStampedMessage === true){
+ if(SetTimeStampedMessage == true){
     TimeStamp_Template = `<p class="timestamp-user">0:00AM</p>`
  }else{
     TimeStamp_Template = ``
@@ -419,16 +419,14 @@ if (term2value){
    }
    // term2.speak(response)
   
-}else{
-  SetUserTimeStamp(false)
-  
 }
   //  NEED TO FIGURE OUT FIX FOR CSS / SCROLL TO BOTTOM - BOOTSTRAP ISSUE - TERMINO.JS HAS BUILT IT SCROLL TO BOTTOM ON COMMANDS.
 window.scrollTo(0, document.body.scrollHeight);
   
+  
+ // setTimeout(basicTerminalApp, term2value)
 // repeat
-setTimeout(basicTerminalApp, term2value)
-
+basicTerminalApp()
 
 }
 
