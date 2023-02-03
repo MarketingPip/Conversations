@@ -10,7 +10,20 @@
     
        <script type="module">
     // Termino.js - Terminal App Demo (Basic)
-import {Termino} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/Termino.js@v1.0.0/dist/termino.min.js';
+import {Termino} from "https://cdn.jsdelivr.net/gh/MarketingPip/Termino.js@MarketingPip-WIP/src/termino10.js"
+ 
+ let DEF_SETTINGS = {
+      allow_scroll: true, // allow scroll up & down on terminal 
+      prompt: "<pre> > {{command}} </pre>", // default prompt / echo message -  {{command}} is required
+      input: "<pre> {{command}} </pre>", // input message - {{command}} is required
+      output: "<pre> {{command}} </pre>", // output message - {{command}} is required
+      command_key: 13, // default command key
+      terminal_killed_placeholder: "TERMINAL DISABLED", // default terminal input placeholder when killed. 
+      terminal_output: ".termino-console", // default output query selector
+      terminal_input: ".termino-inputs", // default input query selector
+      disable_terminal_input: false, // disable any user commands / inputs. --- Useful for making terminal animations etc!
+      speech_to_text:true, // Enable text to speech on output & inputs.
+    }
      
  import {fetch_tmdb_info, tmdb_api_key} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/TheMovieDB-API-Wrapper.js/dist/themoviedb-api-wrapper.min.js' 
 
@@ -365,7 +378,7 @@ return;
  
     
 // initialize a Terminal via Termino.js
-let term2 = Termino(document.getElementById("Example_Terminal_2"))
+let term2 = Termino(document.getElementById("Example_Terminal_2"), null, DEF_SETTINGS)
 
 
   
@@ -379,6 +392,7 @@ if (term2value){
   
     term2value = await nlp.process('en', term2value);
    
+    term2.speak(term2value)
   
 }
   //  NEED TO FIGURE OUT FIX FOR CSS / SCROLL TO BOTTOM - BOOTSTRAP ISSUE - TERMINO.JS HAS BUILT IT SCROLL TO BOTTOM ON COMMANDS.
