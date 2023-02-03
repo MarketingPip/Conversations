@@ -392,7 +392,9 @@ var agent = {
          
          
          
-   
+   // initialize a Terminal via Termino.js
+let term2 = Termino(document.getElementById("Example_Terminal_2"), null, DEF_SETTINGS)  
+  
 
 
   
@@ -400,9 +402,7 @@ var agent = {
 async function basicTerminalApp() {
 
       
-// initialize a Terminal via Termino.js
-let term2 = Termino(document.getElementById("Example_Terminal_2"), null, DEF_SETTINGS)  
-  
+
 // call Termino.js / your terminal for inital input
 let term2value = await term2.input("")
 
