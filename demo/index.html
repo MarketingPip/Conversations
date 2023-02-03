@@ -392,8 +392,15 @@ Termino.echo = function(msg){
 }
   
  
+let BotGreetings = false;         
+         
 async function basicTerminalApp() {
 
+  
+  if(BotGreetings != true){
+    Bot_MSG(`Hello & welcome! :) You can talk to me by typing below and pressing enter!`, "output")
+    BotGreetings = true
+  }
       
 
 // call Termino.js / your terminal for inital input
