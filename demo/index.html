@@ -375,14 +375,10 @@ async function basicTerminalApp() {
 // call Termino.js / your terminal for inital input
 let term2value = await term2.input("")
 
-if (term2value.trim() != ""){
+if (term2value){
   
     term2value = await nlp.process('en', term2value);
    
-  
-} else{
-  
-   term2value = null;
   
 }
   //  NEED TO FIGURE OUT FIX FOR CSS / SCROLL TO BOTTOM - BOOTSTRAP ISSUE - TERMINO.JS HAS BUILT IT SCROLL TO BOTTOM ON COMMANDS.
