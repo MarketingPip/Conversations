@@ -16,15 +16,19 @@ import {Termino} from "https://cdn.jsdelivr.net/gh/MarketingPip/Termino.js@Marke
    
  let TimeStamp_Template = ""
  
- if(SetTimeStampedMessage){
+ function test(){
+ if(SetTimeStampedMessage === true){
     TimeStamp_Template = `<p class="timestamp-user">0:00AM</p>`
  }else{
     TimeStamp_Template = ``
  }
- 
+return TimeStamp_Template
+ }  
+   
+   
  let DEF_SETTINGS = {
       allow_scroll: true, // allow scroll up & down on terminal 
-      prompt: `<div class="d-flex justify-content-end">${TimeStamp_Template}<div class="message-bubble user">{{command}}</div></div>`, // default prompt / echo message -  {{command}} is required
+      prompt: `<div class="d-flex justify-content-end">${test()}<div class="message-bubble user">{{command}}</div></div>`, // default prompt / echo message -  {{command}} is required
       input: "{{command}}", // input message - {{command}} is required
       output: "{{command}}", // output message - {{command}} is required
       command_key: 13, // default command key
