@@ -32,13 +32,30 @@ import {Termino} from "https://cdn.jsdelivr.net/gh/MarketingPip/Termino.js@Marke
    
  let TimeStamp_Template = `<p class="timestamp-user">${getTime()}</p>`
 
-   
+  
+let BotMSG = `<div class="d-flex justify-content-start">
+
+<div class="mr-lg-3 me-2">
+<img class="avatar sm rounded-circle" src="assets/images/xs/avatar5.jpg" alt="avatar">
+</div>
+
+<div class="message-body">
+<span class="date-time text-muted">Chatbot, ${getTime()}</span>
+
+
+<div class="message-bubble bot">
+{{command}}
+</div>
+
+
+</div>
+</div>` 
    
  let DEF_SETTINGS = {
       allow_scroll: true, // allow scroll up & down on terminal 
       prompt: `${TimeStamp_Template}<div class="d-flex justify-content-end"><div class="message-bubble user">{{command}}</div></div>`, // default prompt / echo message -  {{command}} is required
-      input: "{{command}}", // input message - {{command}} is required
-      output: "{{command}}", // output message - {{command}} is required
+      input: BotMSG, // input message - {{command}} is required
+      output: BotMSG, // output message - {{command}} is required
       command_key: 13, // default command key
       terminal_killed_placeholder: "TERMINAL DISABLED", // default terminal input placeholder when killed. 
       terminal_output: ".termino-console", // default output query selector
@@ -211,23 +228,7 @@ Review.....  ${search_results[0].poster_path}`)
             type = term2.input
           }
          
-        return  type(`<div class="d-flex justify-content-start">
-
-<div class="mr-lg-3 me-2">
-<img class="avatar sm rounded-circle" src="assets/images/xs/avatar5.jpg" alt="avatar">
-</div>
-
-<div class="message-body">
-<span class="date-time text-muted">Chatbot, ${getTime()}</span>
-
-
-<div class="message-bubble bot">
-${message}
-</div>
-
-
-</div>
-</div>`)
+        return  type(message)
          }         
           
      // GREETING INTENT FUNCTIONS
