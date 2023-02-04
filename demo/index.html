@@ -570,7 +570,9 @@ basicTerminalApp()
         <div class="col">
          
           <div class="ml-3 mb-3 mr-3 fixed-bottom">
-            <textarea id="termino-input"  class="form-control termino-input"  rows="1" wrap="hard" placeholder="Enter your message here"></textarea>
+            <input id="termino-input"  class="form-control termino-input"  rows="1" wrap="hard" placeholder="Type here.."><div class="input-group-append">
+  <button class="btn btn-outline-secondary" type="button">Send</button>
+  </div>
           </div>
         </div>
       </div>
@@ -583,6 +585,11 @@ basicTerminalApp()
 
 </html>
 <!--
+
+
+
+
+
 Responsive input bar with button beside for chatbot. 
 var inputBar = document.createElement('div');
 inputBar.className = 'input-group';
