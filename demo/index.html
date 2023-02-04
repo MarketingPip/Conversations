@@ -31,6 +31,8 @@ import {Termino} from "https://cdn.jsdelivr.net/gh/MarketingPip/Termino.js@Marke
          
    
  let TimeStamp_Template = `<p class="timestamp-user">${getTime()}</p>`
+ 
+ let ChatBot_Avatar = `https://e7.pngegg.com/pngimages/498/917/png-clipart-computer-icons-desktop-chatbot-icon-blue-angle-thumbnail.png`
 
    
    
@@ -216,7 +218,7 @@ Review.....  ${search_results[0].poster_path}`)
         return  type(`<div class="d-flex justify-content-start">
 
 <div class="mr-lg-3 me-2">
-<img class="avatar sm rounded-circle" src="assets/images/xs/avatar5.jpg" alt="avatar">
+<img class="avatar sm rounded-circle" src="${ChatBot_Avatar}" alt="avatar">
 </div>
 
 <div class="message-body">
@@ -449,12 +451,44 @@ function cancelKeyEvent(e) {
 }         
 
 document.querySelector(".termino-input").addEventListener('keydown', function(e) {
+  
+  let AllowSendBtnClick = false
+  
   if (e.keyCode === 13 && document.querySelector(".termino-input").value.trim().length === 0) {
    
     
     e.preventDefault();
     return
+  } 
+  
+  if(document.querySelector(".termino-input").value.trim().length != 0){
+    AllowSendBtnClick = true
   }
+  
+if(AllowSendBtnClick != true){
+  
+  document.querySelector("#sendBtn").setAttribute('disabled', 'disabled');
+  
+} else{
+  
+    document.querySelector("#sendBtn").removeAttribute('disabled');
+  document.querySelector("#sendBtn").addEventListener('click', function(e) {
+    
+     document.querySelector("#sendBtn").removeEventListener('click', arguments.callee);
+      var event = new KeyboardEvent('keypress', {
+    keyCode: 13,
+  });
+  document.dispatchEvent(event);
+  
+    
+    });     
+  
+
+  
+  
+  
+}
+  
 });           
          
 async function basicTerminalApp() {
@@ -571,8 +605,9 @@ basicTerminalApp()
 }    
   
   
-.input-group-append {
+.input-group-append, fixed-bottom {
   background-color:white;
+  background:white;
   }
     </style>
     <title>Chatbot</title>
@@ -602,7 +637,7 @@ basicTerminalApp()
            <div class="input-group-append">
              
               <input id="termino-input"  class="form-control termino-input"  rows="1" wrap="hard" placeholder="Type here..">
-  <button class="btn btn-secondary" type="button">Send</button>
+  <button id="sendBtn" class="btn btn-secondary" type="button">Send</button>
   </div>
           </div>
         </div>
