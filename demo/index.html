@@ -441,8 +441,16 @@ Termino.echo = function(msg){
  
 let BotGreetings = false;         
          
+         
+function cancelKeyEvent(e) {
+  if (e.target.value.trim() === '') {
+    e.preventDefault();
+  }
+}         
+         
 async function basicTerminalApp() {
 
+ 
   
   if(BotGreetings != true){
     Bot_MSG(`Hello & welcome! :) You can talk to me by typing below and pressing enter!`, "output")
@@ -452,6 +460,9 @@ async function basicTerminalApp() {
 
 // call Termino.js / your terminal for inital input
 let term2value = await term2.input("")
+
+
+ cancelKeyEvent(document.querySelector(".termino-console"))
 
 DEF_SETTINGS.prompt = `<div class="d-flex justify-content-end"><div class="message-bubble user">{{command}}</div></div>`
 
@@ -545,6 +556,11 @@ basicTerminalApp()
         opacity: 1;
     }
 }    
+  
+  
+.input-group-append {
+  background-color:white;
+  }
     </style>
     <title>Chatbot</title>
   </head>
@@ -573,7 +589,7 @@ basicTerminalApp()
            <div class="input-group-append">
              
               <input id="termino-input"  class="form-control termino-input"  rows="1" wrap="hard" placeholder="Type here..">
-  <button class="btn btn-outline-secondary" type="button">Send</button>
+  <button class="btn btn-secondary" type="button">Send</button>
   </div>
           </div>
         </div>
