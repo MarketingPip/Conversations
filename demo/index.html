@@ -210,26 +210,13 @@ Review.....  ${search_results[0].poster_path}`)
           } else{
             type = term2.input
           }
-         
-        return  type(`<li class="d-flex message">
-
-<div class="mr-lg-3 me-2">
-<img class="avatar sm rounded-circle" src="assets/images/xs/avatar5.jpg" alt="avatar">
+           
+  
+        return  type(`<div class="d-flex justify-content-start">
+        <div class="mr-lg-3 me-2">
+<img class="avatar sm rounded-circle" src="assets/images/xs/avatar5.jpg" alt="avatar"> <span class="date-time text-muted">Chatbot, ${getTime()}</span>
 </div>
-
-<div class="message-body">
-<span class="date-time text-muted">Chatbot, ${getTime()}</span>
-<div class="message-row d-flex align-items-center">
-
-<div class="message-bubble message-content p-3">
-${message}
-</div>
-
-
-
-</div>
-</div>
-</li>`)
+<div class="message-bubble bot">${message}</div></div>`)
          }         
           
      // GREETING INTENT FUNCTIONS
