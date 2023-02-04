@@ -189,7 +189,7 @@ Review.....  ${search_results[0].poster_path}`)
         }
      
      
-      /*  function Bot_MSG(message, type){
+        function Bot_MSG(message, type){
           
           if (type == "output"){
             type = term2.output
@@ -199,38 +199,7 @@ Review.....  ${search_results[0].poster_path}`)
         return type(`<div class="d-flex justify-content-start"><div class="message-bubble bot">${message}</div></div>`)  
         
         
-        } */
-         
-         
-         
-         function Bot_MSG(message, type){
-          
-          if (type == "output"){
-            type = term2.output
-          } else{
-            type = term2.input
-          }
-         
-        return  type(`<li class="d-flex message">
-
-<div class="mr-lg-3 me-2">
-<img class="avatar sm rounded-circle" src="assets/images/xs/avatar5.jpg" alt="avatar">
-</div>
-
-<div class="message-body">
-<span class="date-time text-muted">Chatbot, ${getTime()}</span>
-<div class="message-row d-flex align-items-center">
-
-<div class="message-bubble message-content p-3">
-${message}
-</div>
-
-
-
-</div>
-</div>
-</li>`)
-         }         
+        }
           
      // GREETING INTENT FUNCTIONS
      
@@ -521,16 +490,11 @@ basicTerminalApp()
  
   
 .timestamp-user {
-    /* padding-top: 14px; */
-    /* margin-top: 30px; */
-    /* padding-bottom: 40px; */
+    padding-bottom: 40px;
     /* text-align: right; */
-    text-align: right;
-    /* display: inline-block; */
-    /* left: 60px; */
-    top: 10px;
-    position: relative;
-
+    display: block;
+    left: 60px;
+    position: relative;  
  }
   
   
