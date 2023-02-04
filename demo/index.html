@@ -461,8 +461,8 @@ async function basicTerminalApp() {
 // call Termino.js / your terminal for inital input
 let term2value = await term2.input("")
 
-
- cancelKeyEvent(document.querySelector(".termino-console"))
+cancelKeyEvent(document.querySelector(".termino-input"))
+ 
 
 DEF_SETTINGS.prompt = `<div class="d-flex justify-content-end"><div class="message-bubble user">{{command}}</div></div>`
 
