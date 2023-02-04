@@ -399,6 +399,7 @@ async function basicTerminalApp() {
   
   if(BotGreetings != true){
     Bot_MSG(`Hello & welcome! :) You can talk to me by typing below and pressing enter!`, "output")
+    DEF_SETTINGS.prompt =`<div class="d-flex justify-content-end">test<div class="message-bubble user">{{command}}</div></div>`
     BotGreetings = true
   }
       
