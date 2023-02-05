@@ -471,14 +471,21 @@ document.querySelector(".termino-input").addEventListener('keyup', function(e) {
   
 if(AllowSendBtnClick != true){
   
-  document.querySelector("#sendBtn").setAttribute('disabled', 'disabled');
+  //document.querySelector("#sendBtn").setAttribute('disabled', 'disabled');
   
 } else{
   
-    document.querySelector("#sendBtn").removeAttribute('disabled');  
+ //   document.querySelector("#sendBtn").removeAttribute('disabled');  
    
   
-     document.querySelector("#sendBtn").addEventListener('click', function handleReplys(e) {
+
+  
+}
+  
+});     
+         
+         
+       document.querySelector("#sendBtn").addEventListener('click', function handleReplys(e) {
         e.preventDefault();
          document.querySelector(".termino-input").dispatchEvent(new KeyboardEvent('keypress', {'keyCode':13}));
 
@@ -489,11 +496,7 @@ if(AllowSendBtnClick != true){
     
        return
         
-});
-  
-}
-  
-});           
+});       
          
 async function basicTerminalApp() {
 
