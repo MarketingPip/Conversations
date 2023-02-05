@@ -443,46 +443,40 @@ Termino.echo = function(msg){
  
 let BotGreetings = false;         
          
-         
-function cancelKeyEvent(e) {
-  if (e.target.value.trim() === '') {
-    e.preventDefault();
-  }
-}         
 
-document.querySelector(".termino-input").addEventListener('keydown', function(e) {
-  
-  let AllowSendBtnClick = false
-  
-  if (e.keyCode === 13 && document.querySelector(".termino-input").value.trim().length === 0) {
-   
-    
+         
+         
+         
+         
+         
+/////////// HANDLE USER SUBMIT + SUBMIT BUTTON CLICKS //////////                  
+         
+function checkIfValidUserMsg(e){
+
+  if (e.keyCode === 13 && document.querySelector(".termino-input").value.trim().length === 0) {    
     e.preventDefault();
     return
-  }else{
-     AllowSendBtnClick = true
   }
+  
   
   if(document.querySelector(".termino-input").value.trim().length != 0){
-    AllowSendBtnClick = true
+    document.querySelector("#sendBtn").setAttribute('disabled', 'disabled');
   } else{
-     AllowSendBtnClick = false
+     document.querySelector("#sendBtn").removeAttribute('disabled');  
   }
   
-if(AllowSendBtnClick != true){
   
-  document.querySelector("#sendBtn").setAttribute('disabled', 'disabled');
-  
-} else{
-  
- document.querySelector("#sendBtn").removeAttribute('disabled');  
-   
-  
-
-  
-}
-  
-});     
+}  
+         
+         
+         
+document.querySelector(".termino-input").addEventListener('keydown', function(e) {
+  checkIfValidUserMsg(e)
+});  
+         
+document.querySelector(".termino-input").addEventListener('keypress', function(e) {
+  checkIfValidUserMsg(e)
+});           
          
          
 document.querySelector("#sendBtn").addEventListener('click', function (e) {
@@ -492,6 +486,18 @@ document.querySelector("#sendBtn").addEventListener('click', function (e) {
        return
         
 });
+         
+/////////// END OF HANDLE USER SUBMIT + SUBMIT BUTTON CLICKS //////////         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
          
 async function basicTerminalApp() {
 
