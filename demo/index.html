@@ -462,7 +462,7 @@ document.querySelector(".termino-input").addEventListener('keyup', function(e) {
   } 
    
   if (e.keyCode === 13 && document.querySelector(".termino-input").value.trim().length != 0){ 
-    event.preventDefault();
+    e.preventDefault();
     document.querySelector("#sendBtn").click();
     
   }
@@ -487,7 +487,7 @@ if(AllowSendBtnClick != true){
      
          document.querySelector(".termino-input").dispatchEvent(new KeyboardEvent('keypress', {'keyCode':13}));
 
-         //document.querySelector(".termino-input").value = ""
+         document.querySelector(".termino-input").value = ""
        
        document.querySelector("#sendBtn").setAttribute('disabled', 'disabled');
        
