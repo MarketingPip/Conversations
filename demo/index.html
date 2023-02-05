@@ -485,7 +485,7 @@ if(AllowSendBtnClick != true){
   
      document.querySelector("#sendBtn").addEventListener('click', function handleReplys() {
      
-         document.querySelector(".termino-input").dispatchEvent(new KeyboardEvent('keydown', {'keyCode':13}));
+         document.querySelector(".termino-input").dispatchEvent(new KeyboardEvent('keypress', {'keyCode':13}));
 
          document.querySelector(".termino-input").value = ""
        
