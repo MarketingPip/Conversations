@@ -289,7 +289,9 @@ ${message}
               } else{
                 
                  if (tt.toLowerCase() == "similar"){
-                 results = await Bot_MSG(`Is this title a TV show or Movie?`)  
+                 results = await Bot_MSG(`Is this title a TV show or Movie?`)
+                   
+                    results = results.toLowerCase()
                      if (results != "movie" && results != "tv"){
                        Bot_MSG("Invalid option chosen, you must choose a valid option provided!", "output")
     return 
@@ -301,6 +303,9 @@ ${message}
                 
                  if (functions[option] == "reviews"){
                  results = await Bot_MSG(`Is this title a TV show or Movie?`)   
+                   
+                  results = results.toLowerCase()
+                   
                      if (results != "movie" && results != "tv"){
                        Bot_MSG("Invalid option chosen, you must choose a valid option provided!", "output")
     return 
