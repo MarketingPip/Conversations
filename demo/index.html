@@ -581,7 +581,16 @@ basicTerminalApp()
 
   basicTerminalApp()
     
-     
+  
+  /* bootstrap floating live chat button bottom right screen. */
+var chatButton = document.createElement('div');
+chatButton.innerHTML = '<div id="chat-button" style="background:#0084ff; border-radius:50%; position: fixed; bottom: 0; right: 0; z-index: 99999;"><a href="https://www.livechatinc.com/chat-with/10259961/" rel="nofollow" style="display: block; width: 60px; height: 60px; background: url(https://cdn.livechatinc.com/assets/images/mobile-apps/support-chat-v2.svg) no-repeat center; background-size: contain;"></a></div>';
+document.body.appendChild(chatButton);
+/* css for chat button. */
+var chatButtonCss = document.createElement('style');
+chatButtonCss.innerHTML = '#chat-button { transition: all 0.5s ease-in-out; } #chat-button:hover { transform: scale(1.1); }';
+document.body.appendChild(chatButtonCss);       
+         
   </script> 
     
     <!-- Bootstrap CSS -->
