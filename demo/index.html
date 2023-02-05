@@ -450,7 +450,7 @@ function cancelKeyEvent(e) {
   }
 }         
 
-document.querySelector(".termino-input").addEventListener('keypress', function(e) {
+document.querySelector(".termino-input").addEventListener('keydown', function(e) {
   
   let AllowSendBtnClick = false
   
@@ -463,6 +463,8 @@ document.querySelector(".termino-input").addEventListener('keypress', function(e
   
   if(document.querySelector(".termino-input").value.trim().length != 0){
     AllowSendBtnClick = true
+  } else{
+     AllowSendBtnClick = false
   }
   
 if(AllowSendBtnClick != true){
@@ -632,7 +634,7 @@ basicTerminalApp()
            <div class="input-group-append">
              
               <input class="form-control termino-input"  rows="1" wrap="hard" placeholder="Type here..">
-  <button id="sendBtn" class="btn btn-secondary" type="button">Send</button>
+  <button id="sendBtn" class="btn btn-secondary" type="button" disabled>Send</button>
   </div>
           </div>
         </div>
