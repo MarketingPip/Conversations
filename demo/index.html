@@ -204,8 +204,11 @@ Review.....  ${search_results[0].poster_path}`)
         } */
          
          
+         let BotMSGS = 0
          
          function Bot_MSG(message, type){
+           
+           
           
           if (type == "output"){
             type = term2.output
@@ -214,7 +217,7 @@ Review.....  ${search_results[0].poster_path}`)
           }
            
            term2.speak(message)
-         
+         if (BotMSGS === 0){
         return  type(`<div class="d-flex justify-content-start">
 
 <div class="mr-lg-3 me-2">
@@ -232,6 +235,20 @@ ${message}
 
 </div>
 </div>`)
+         }else{
+           
+   return  type(`<div class="d-flex justify-content-start">
+
+<div class="message-body">
+<div class="message-bubble bot">
+${message}
+</div>
+
+</div>
+</div>`)
+           
+           
+         }
          }         
           
      // GREETING INTENT FUNCTIONS
@@ -527,7 +544,10 @@ if (term2value){
    if(term2value.trim().length != 0){
     let response = await nlp.process('en', term2value);
      DEF_SETTINGS.prompt = `${TimeStamp_Template}<div class="d-flex justify-content-end"><div class="message-bubble user">{{command}}</div></div>`
+     BotMSGS += 1 // Remove bot avatar etc
      Bot_MSG(`Just a test!`, "output")
+     // add it back when user input comes again. 
+     BotMSGS = 0
    }
      
     
