@@ -450,7 +450,7 @@ function cancelKeyEvent(e) {
   }
 }         
 
-document.querySelector(".termino-input").addEventListener('keydown', function(e) {
+document.querySelector(".termino-input").addEventListener('keypress', function(e) {
   
   let AllowSendBtnClick = false
   
@@ -473,13 +473,8 @@ if(AllowSendBtnClick != true){
   
     document.querySelector("#sendBtn").removeAttribute('disabled');
   document.querySelector("#sendBtn").addEventListener('click', function(e) {
-    
+    document.querySelector(".termino-input").dispatchEvent(new KeyboardEvent('keypress', {'keyCode':13}));
      document.querySelector("#sendBtn").removeEventListener('click', arguments.callee);
-      var event = new KeyboardEvent('keypress', {
-    keyCode: 13,
-  });
-  document.dispatchEvent(event);
-  
     
     });     
   
@@ -575,7 +570,9 @@ basicTerminalApp()
  
   
 .timestamp-user {
-  text-align: right;
+ justify-content: flex-end!important;
+    /* text-align: right; */
+    display: flex!important;
 
  }
   
