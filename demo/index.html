@@ -450,7 +450,7 @@ function cancelKeyEvent(e) {
   }
 }         
 
-document.querySelector(".termino-input").addEventListener('keydown', function(e) {
+document.querySelector(".termino-input").addEventListener('keyup', function(e) {
   
   let AllowSendBtnClick = false
   
@@ -459,7 +459,14 @@ document.querySelector(".termino-input").addEventListener('keydown', function(e)
     
     e.preventDefault();
     return
-  } 
+  } else{
+   
+    if (e.keyCode === 13){ 
+      event.preventDefault();
+    document.querySelector("#sendBtn").click();
+    }
+  }
+  
   
   if(document.querySelector(".termino-input").value.trim().length != 0){
     AllowSendBtnClick = true
@@ -474,7 +481,19 @@ if(AllowSendBtnClick != true){
 } else{
   
     document.querySelector("#sendBtn").removeAttribute('disabled');  
+   
+  
+     document.querySelector("#sendBtn").addEventListener('click', function handleReplys() {
+     
+         document.querySelector(".termino-input").dispatchEvent(new KeyboardEvent('keydown', {'keyCode':13}));
 
+         document.querySelector(".termino-input").value = ""
+       
+       document.querySelector("#sendBtn").setAttribute('disabled', 'disabled');
+       
+      document.querySelector("#sendBtn").removeEventListener("click", handleReplys);  
+        
+});
   
 }
   
@@ -654,7 +673,26 @@ inputBar.innerHTML = '<input type="text" class="form-control" placeholder="Type 
   '</div>';
 document.body.appendChild(inputBar);
 
-
+/* input.addEventListener('keyup', function(event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    document.getElementById('button').click();
+  }
+  if (input.value === '') {
+    button.disabled = true;
+  } else {
+    button.disabled = false;
+  }
+});
+button.addEventListener('click', function() {
+  var value = document.getElementById('input').value;
+  var div = document.createElement('div');
+  div.innerHTML = value;
+  document.body.appendChild(div);
+  input.value = '';
+  button.disabled = true;
+});
+*/
 
 
 CSS TIME STAMP (RIGHT SIDE)
