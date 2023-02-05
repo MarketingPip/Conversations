@@ -239,10 +239,17 @@ ${message}
            
    return  type(`<div class="d-flex justify-content-start">
 
+<div class="mr-lg-3 me-2">
+</div>
+
 <div class="message-body">
+<span class="date-time text-muted"></span>
+
+
 <div class="message-bubble bot">
 ${message}
 </div>
+
 
 </div>
 </div>`)
@@ -579,13 +586,17 @@ basicTerminalApp()
 
     <link rel="stylesheet" href="static/style.css">
 <style>
-
+body{
+  background-color: #f1f0f0; /* New background color */
+  }
+  
 /* Chatbot message bubbles */
 .message-bubble {
   position: relative;
   padding: 12px 18px;
   margin: 8px 0;
-  background-color: #f1f0f0;
+  /* background-color: #f1f0f0; old color */ 
+  background-color: white;
   border-radius: 6px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -629,8 +640,8 @@ basicTerminalApp()
  /* Chatbot Avatar */ 
   
   .avatar.sm {
-    height: 26px;
-    width: 26px;
+    height: 22px;
+    width: 22px;
     font-size: 12px;
 }
   
@@ -643,11 +654,11 @@ basicTerminalApp()
     <title>Chatbot</title>
   </head>
   <body>
-    <!---- old color for pink is #ff0080 ----->
-    <nav class="navbar sticky-top navbar-dark" style="background-color: #1ca315;">
+    <!---- v0 old color for pink is #ff0080 / #v1 is color #1ca315, v1.1 is color #white ----->
+    <nav class="navbar sticky-top navbar-dark" style="background-color: white">
       <a class="navbar-brand" href="/">
-      <i class="fas fa-robot mr-2"></i>
-        <b>Chatbot</b>
+      <i style="color:black" class="fas fa-robot mr-2"></i>
+        <b style="color:black">Chatbot</b>
       </a>
     </nav>
 
