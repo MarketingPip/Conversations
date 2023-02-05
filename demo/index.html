@@ -30,7 +30,7 @@ import {Termino} from "https://cdn.jsdelivr.net/gh/MarketingPip/Termino.js@Marke
          
          
    
- let TimeStamp_Template = `<p class="timestamp-user">${getTime()}</p>`
+ let TimeStamp_Template = `<span class="date-time text-muted">${getTime()} <i class="zmdi zmdi-check-all text-primary"></i></span>`
  
  let ChatBot_Avatar = `https://e7.pngegg.com/pngimages/498/917/png-clipart-computer-icons-desktop-chatbot-icon-blue-angle-thumbnail.png`
 
@@ -603,6 +603,16 @@ basicTerminalApp()
         opacity: 1;
     }
 }    
+  
+  
+  
+ /* Chatbot Avatar */ 
+  
+  .avatar.sm {
+    height: 26px;
+    width: 26px;
+    font-size: 12px;
+}
   
   
 .input-group-append, fixed-bottom {
