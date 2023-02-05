@@ -450,7 +450,7 @@ function cancelKeyEvent(e) {
   }
 }         
 
-document.querySelector(".termino-input").addEventListener('keydown', function(e) {
+document.querySelector(".termino-input").addEventListener('keypress', function(e) {
   
   let AllowSendBtnClick = false
   
@@ -476,7 +476,9 @@ if(AllowSendBtnClick != true){
     document.querySelector("#sendBtn").removeAttribute('disabled');
   document.querySelector("#sendBtn").addEventListener('click', function(e) {
     document.querySelector(".termino-input").dispatchEvent(new KeyboardEvent('keypress', {'keyCode':13}));
-     document.querySelector("#sendBtn").removeEventListener('click', arguments.callee);
+    document.querySelector(".termino-input").value = ""
+    return
+     //document.querySelector("#sendBtn").removeEventListener('click', arguments.callee);
     
     });     
   
