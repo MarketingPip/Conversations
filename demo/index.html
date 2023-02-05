@@ -455,6 +455,7 @@ function checkIfValidUserMsg(e){
 
   if (e.keyCode === 13 && document.querySelector(".termino-input").value.trim().length === 0) {    
     e.preventDefault();
+     document.querySelector("#sendBtn").setAttribute('disabled', 'disabled');
     return
   }
   
@@ -474,7 +475,7 @@ document.querySelector(".termino-input").addEventListener('keydown', function(e)
   checkIfValidUserMsg(e)
 });  
          
-document.querySelector(".termino-input").addEventListener('keypress', function(e) {
+document.querySelector(".termino-input").addEventListener('keyup', function(e) {
   checkIfValidUserMsg(e)
 });           
          
