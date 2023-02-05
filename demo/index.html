@@ -475,7 +475,7 @@ if(AllowSendBtnClick != true){
   
     document.querySelector("#sendBtn").removeAttribute('disabled');
   document.querySelector("#sendBtn").addEventListener('click', function handleReplys(e) {
-    document.querySelector(".termino-input").dispatchEvent(new KeyboardEvent('keydown', {'keyCode':13}));
+    document.querySelector(".termino-input").dispatchEvent(new KeyboardEvent('keypress', {'keyCode':13}));
     
     
       document.querySelector("#sendBtn").removeEventListener("click", handleReplys);
