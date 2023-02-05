@@ -461,11 +461,6 @@ document.querySelector(".termino-input").addEventListener('keyup', function(e) {
     return
   } 
    
-  if (e.keyCode === 13 && document.querySelector(".termino-input").value.trim().length != 0){ 
-    e.preventDefault();
-    document.querySelector("#sendBtn").click();
-    return
-  }
   
   
   if(document.querySelector(".termino-input").value.trim().length != 0){
@@ -484,14 +479,14 @@ if(AllowSendBtnClick != true){
    
   
      document.querySelector("#sendBtn").addEventListener('click', function handleReplys(e) {
-     e.preventDefault();
+        e.preventDefault();
          document.querySelector(".termino-input").dispatchEvent(new KeyboardEvent('keypress', {'keyCode':13}));
 
-         document.querySelector(".termino-input").value = ""
+      //   document.querySelector(".termino-input").value = ""
        
        document.querySelector("#sendBtn").setAttribute('disabled', 'disabled');
        
-      document.querySelector("#sendBtn").removeEventListener("click", handleReplys);  
+    
        return
         
 });
