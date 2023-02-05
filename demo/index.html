@@ -461,9 +461,9 @@ function checkIfValidUserMsg(e){
   
   
   if(document.querySelector(".termino-input").value.trim().length != 0){
-    document.querySelector("#sendBtn").setAttribute('disabled', 'disabled');
+    document.querySelector("#sendBtn").removeAttribute('disabled');  
   } else{
-     document.querySelector("#sendBtn").removeAttribute('disabled');  
+    document.querySelector("#sendBtn").setAttribute('disabled', 'disabled');
   }
   
   
@@ -481,10 +481,10 @@ document.querySelector(".termino-input").addEventListener('keyup', function(e) {
          
          
 document.querySelector("#sendBtn").addEventListener('click', function (e) {
-     e.preventDefault();
-         document.querySelector(".termino-input").dispatchEvent(new KeyboardEvent('keypress', {'keyCode':13}));  
+   e.preventDefault();
+   document.querySelector(".termino-input").dispatchEvent(new KeyboardEvent('keypress', {'keyCode':13}));  
    document.querySelector("#sendBtn").setAttribute('disabled', 'disabled');
-       return
+   return
         
 });
          
