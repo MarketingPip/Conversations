@@ -473,19 +473,8 @@ if(AllowSendBtnClick != true){
   
 } else{
   
-    document.querySelector("#sendBtn").removeAttribute('disabled');
-  document.querySelector("#sendBtn").addEventListener('click', function handleReplys(e) {
-    document.querySelector(".termino-input").dispatchEvent(new KeyboardEvent('keypress', {'keyCode':13}));
-    
-    
-      document.querySelector("#sendBtn").removeEventListener("click", handleReplys);
-     //document.querySelector("#sendBtn").removeEventListener('click', arguments.callee);
-      return
-    });     
-  
+    document.querySelector("#sendBtn").removeAttribute('disabled');  
 
-  
-  
   
 }
   
