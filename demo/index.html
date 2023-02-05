@@ -220,7 +220,7 @@ Review.....  ${search_results[0].poster_path}`)
          if (BotMSGS === 0){
         return  type(`<div class="d-flex justify-content-start">
 
-<div class="mr-lg-3 me-2">
+<div class="mr-lg-3 me-2 chatbot_container">
 <img class="avatar sm rounded-circle" src="${ChatBot_Avatar}" alt="avatar">
 </div>
 
@@ -239,7 +239,7 @@ ${message}
            
    return  type(`<div class="d-flex justify-content-start">
 
-<div class="mr-lg-3 me-2">
+<div class="mr-lg-3 me-2 chatbot_container">
 <div class="avatar sm rounded-circle">&nbsp;</div>
 </div>
 
@@ -614,6 +614,13 @@ body{
   animation: slide-in-bot-msg 0.5s ease-out;
 }
  
+  
+  
+  .chatbot_container {
+  padding-right: 0.5rem;
+    margin-right: unset;
+  }
+  
   
 .timestamp-user {
  justify-content: flex-end!important;
