@@ -515,11 +515,7 @@ DEF_SETTINGS.prompt = `<div class="d-flex justify-content-end"><div class="messa
 
 if (term2value){
   
-   term2value = term2value.trim()
-  
-  
-  
-   if(term2value.length != 0){
+   if(term2value.trim().length != 0){
     let response = await nlp.process('en', term2value);
      DEF_SETTINGS.prompt = `<div class="d-flex justify-content-end">${TimeStamp_Template}<div class="message-bubble user">{{command}}</div></div>`
    }
