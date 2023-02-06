@@ -561,7 +561,7 @@ if (term2value){
     let response = await nlp.process('en', term2value);
      DEF_SETTINGS.prompt = `${TimeStamp_Template}<div class="d-flex justify-content-end"><div class="message-bubble user">{{command}}</div></div>`
      
-     Bot_MSG(`<div class="card-body">
+    /* Bot_MSG(`<div class="card-body">
 <h5 class="card-title">Try it yourself!</h5>
 <p class="card-text">Try ChatBot for free for 14 days before you buy it. No credit card required!</p>
 </div>
@@ -603,12 +603,14 @@ if (term2value){
 </div>
 </div>`, "output")    
      
- /* Bot_MSG(`<div class="message-row d-flex align-items-center">
+ Bot_MSG(`<div class="message-row d-flex align-items-center">
 <button type="button" class="btn btn-outline-primary btn-rounded mb-1 me-1">Services</button>
 <button type="button" class="btn btn-outline-dark btn-rounded mb-1 me-1">Solutions</button>
 <button type="button" class="btn btn-outline-warning btn-rounded mb-1 me-1">Book a call</button>
 <button type="button" class="btn btn-outline-primary btn-rounded mb-1 me-1">Leave a message</button>
 </div>`, "output") */
+     
+     
      
    // BotMSGS += 1 // Remove bot avatar etc
     //Bot_MSG(`Just a test!`, "output")
