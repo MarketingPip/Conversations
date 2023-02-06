@@ -207,10 +207,10 @@ Review.....  ${search_results[0].poster_path}`)
          let BotMSGS = 0
          
          function Bot_MSG(message, type, transparent){
-        let class = 'message-bubble'
+        let className = 'message-bubble'
            
            if(transparent){
-             class = "message-bubble-transparent"
+             className = "message-bubble-transparent"
            ) 
           
           if (type == "output"){
@@ -231,7 +231,7 @@ Review.....  ${search_results[0].poster_path}`)
 <span class="date-time text-muted">Chatbot, ${getTime()}</span>
 
 
-<div class="${class} bot">
+<div class="${className} bot">
 ${message}
 </div>
 
@@ -249,7 +249,7 @@ ${message}
 <div class="message-body">
 
 
-<div class="${class} bot">
+<div class="${className} bot">
 ${message}
 </div>
 
