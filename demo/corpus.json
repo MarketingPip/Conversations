@@ -9,9 +9,9 @@
         "where am i talking"
       ],
       "answers": [
-        { "answer": "you're talking to me"},
-        { "answer": "you're talking to a chatbot in the web browser"},
-        { "answer": "I don't know where you are but I know you are talking to me!"}
+       "you're talking to me",
+       "you're talking to a chatbot in the web browser",
+       "I don't know where you are but I know you are talking to me!"
       ]
     },
      {
@@ -231,7 +231,7 @@
       ],
       "answers": [
         "Indeed I am. I'll be here whenever you need me",
-        "Yes I am! Are you?",
+        "Yes I am! Are you?"
       ]
     },
     {
