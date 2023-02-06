@@ -217,6 +217,7 @@ Review.....  ${search_results[0].poster_path}`)
             type = term2.output
           } else{
             type = term2.input
+            BotMSGS = 0
           }
            
            term2.speak(message)
@@ -259,6 +260,7 @@ ${message}
            
            
          }
+           BotMSGS += 1
          }         
           
      // GREETING INTENT FUNCTIONS
@@ -544,7 +546,6 @@ async function basicTerminalApp() {
       
 
 
-  
 // call Termino.js / your terminal for inital input
 let term2value = await term2.input("")
 
@@ -560,6 +561,11 @@ if (term2value){
    if(term2value.trim().length != 0){
     let response = await nlp.process('en', term2value);
      DEF_SETTINGS.prompt = `${TimeStamp_Template}<div class="d-flex justify-content-end"><div class="message-bubble user">{{command}}</div></div>`
+     
+     
+     Bot_MSG('Just a test', 'output')
+     
+      Bot_MSG('Just a test again', 'output')
      
     /* Bot_MSG(`<div class="card-body">
 <h5 class="card-title">Try it yourself!</h5>
