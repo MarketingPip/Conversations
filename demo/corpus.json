@@ -29,6 +29,22 @@
         "Jared Van Valkengoed, you can find more of his work published on github <a href='https://github.com/MarketingPipeline'>here</a>"
       ]
     },
+     {
+      "intent": "agent.areyoujared",
+      "utterances": [
+        "are you Jared?",
+        "is this Jared",
+        "is this actually just Jared",
+        "am I talking to Jared",
+        "is that you Jared",
+        "Jared is this you"
+      ],
+      "answers": [
+        "No, I am not Jared.",
+        "This is not Jared, this is just a basic chatbot. I wish I was tho.",
+        "Yes this is Jared! Just kidding, no I am not Jared... Just a chatbot!"
+      ]
+    },
     {
       "intent": "agent.acquaintance",
       "utterances": [
@@ -915,7 +931,18 @@
         "Fixed a bug :bug:"
       ]
     },
-    
+       {
+      "intent": "githubcommits.added_file",
+      "utterances": [
+        "uploaded",
+        "added a file",
+        "uploaded file",
+        "file uploaded"
+      ],
+      "answers": [
+        "Added file :inbox_tray:"
+      ]
+    },
     {
       "intent": "None",
       "utterances": [
