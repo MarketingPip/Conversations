@@ -30,15 +30,17 @@ import {Termino} from "https://cdn.jsdelivr.net/gh/MarketingPip/Termino.js@Marke
          
          
    
- let TimeStamp_Template = `<span class="date-time text-muted timestamp-user">${getTime()} <i class="zmdi zmdi-check-all text-primary"></i></span>`
- 
+function TimeStamp_Template(){
+       return `<span class="date-time text-muted timestamp-user">${getTime()} <i class="zmdi zmdi-check-all text-primary"></i></span>`
+}
+         
  let ChatBot_Avatar = `https://e7.pngegg.com/pngimages/498/917/png-clipart-computer-icons-desktop-chatbot-icon-blue-angle-thumbnail.png`
 
    
    
  let DEF_SETTINGS = {
       allow_scroll: true, // allow scroll up & down on terminal 
-      prompt: `${TimeStamp_Template}<div class="d-flex justify-content-end"><div class="message-bubble user">{{command}}</div></div>`, // default prompt / echo message -  {{command}} is required
+      prompt: `${TimeStamp_Template()}<div class="d-flex justify-content-end"><div class="message-bubble user">{{command}}</div></div>`, // default prompt / echo message -  {{command}} is required
       input: "{{command}}", // input message - {{command}} is required
       output: "{{command}}", // output message - {{command}} is required
       command_key: 13, // default command key
@@ -217,6 +219,7 @@ Review.....  ${search_results[0].poster_path}`)
             type = term2.output
           } else{
             type = term2.input
+              DEF_SETTINGS.prompt = `${TimeStamp_Template()}<div class="d-flex justify-content-end"><div class="message-bubble user">{{command}}</div></div>`
            // BotMSGS = 0
           }
            
@@ -595,7 +598,7 @@ if (term2value){
   
    if(term2value.trim().length != 0){
     let response = await nlp.process('en', term2value);
-     DEF_SETTINGS.prompt = `${TimeStamp_Template}<div class="d-flex justify-content-end"><div class="message-bubble user">{{command}}</div></div>`
+    //DEF_SETTINGS.prompt = `${TimeStamp_Template()}<div class="d-flex justify-content-end"><div class="message-bubble user">{{command}}</div></div>`
      
      
     // Bot_MSG('Just a test', 'output')
