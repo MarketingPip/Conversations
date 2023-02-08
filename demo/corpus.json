@@ -701,6 +701,20 @@
       ]
     },
     {
+      "intent": "greetings.forgotpassword",
+      "utterances": [
+        "I forgot my password",
+        "I need to change my password",
+        "reset my password",
+        "I need to reset my password",
+        "reset password",
+        "forgot password"
+      ],
+      "answers": [
+        "Handled with function"
+      ]
+    },
+    {
       "intent": "greetings.hello",
       "utterances": [
         "hello",
