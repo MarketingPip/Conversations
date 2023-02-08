@@ -372,6 +372,33 @@ ${message}
                 }
     return answer
      },
+  forgotpassword: async function () {
+
+
+try {
+
+let email = await Bot_MSG("What is your email?")
+if (!email) {
+throw {
+message: "The email address you provided is not valid."
+}
+}
+
+  
+Bot_MSG(`Just a moment!`, "output")
+  
+   await term2.delay(3000) // delay with post request
+
+
+Bot_MSG(`Password reset has been sent to the email provided.`, "output")
+} catch (error) {
+  Bot_MSG(`${error.message}`, "output")
+
+}
+
+return;
+
+},       
    searchGitHubProfile: async function SearchGitHubProfile() {
 
 
@@ -431,7 +458,7 @@ var agent = {
           
            // Handle your custom functions with Termino.JS on ChatBot intents here! 
           
-          let functions = ['greetings.hello', 'search.github', 'agent.canyouhelp']
+          let functions = ['greetings.hello', 'search.github', 'agent.canyouhelp', 'greetings.forgotpassword']
           
           for (const option in functions){
             if (input.intent === functions[option]) {        
