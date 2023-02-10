@@ -439,6 +439,10 @@ var agent = {
    canyouhelp: function (input){
                Bot_MSG(`I am sorry I can not help you, I am still learning!`, "output")
                return
+   },
+   searchyoutube: function (utterance, input){
+               Bot_MSG(`${utterance}, ${JSON.stringify(input)}`, "output")
+               return
    }
 }
          
@@ -462,11 +466,11 @@ var agent = {
           
            // Handle your custom functions with Termino.JS on ChatBot intents here! 
           
-          let functions = ['greetings.hello', 'greetings.forgotpassword', 'search.github', 'agent.canyouhelp']
+          let functions = ['greetings.hello', 'greetings.forgotpassword', 'search.github', 'agent.canyouhelp', 'agent.searchyoutube']
           
           for (const option in functions){
             if (input.intent === functions[option]) {        
-              output.answer = await eval(functions[option] + `("${input.utterance}")`)  
+              output.answer = await eval(functions[option] + `("${input.utterance}, ${input}")`)  
             }
           } 
             if (output.answer != undefined){
