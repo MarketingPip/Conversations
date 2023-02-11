@@ -95,6 +95,17 @@
       ]
     },
     {
+      "intent": "agent.whatshouldIwear",
+      "utterances": [
+       "what should I wear today?",
+       "what clothes should I wear today?",
+       "what kinda clothes should I wear today?",
+       "can you suggest what I should wear today",
+       "tell me what I should wear today",
+       "I need to know what to wear"
+      ]
+    },   
+    {
       "intent": "agent.whatsmyip",
       "utterances": [
        "what is my ip address",
