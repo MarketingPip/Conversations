@@ -2,6 +2,29 @@
   "name": "Corpus",
   "locale": "en-US",
   "data": [
+     {
+      "intent": "agent.whatisname",
+      "utterances": [
+        "whats your name",
+        "who am i talking to"
+        "what is your name",
+        "tell me your name",
+        "do you have a name?"
+      ],
+      "answers": [
+       "My name is Tom!"
+      ]
+    },
+    {
+      "intent": "agent.doyouhavename",
+      "utterances": [
+        "do you have a name",
+        "do you have a nickname"
+      ],
+      "answers": [
+       "Yes I do have a name!"
+      ]
+    },    
     {
       "intent": "agent.whereami",
       "utterances": [
