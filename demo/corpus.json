@@ -477,6 +477,24 @@
       ]
     },
     {
+      "intent": "agent.wasNOTfunny",
+      "utterances": [
+        "that was not funny",
+        "that joke wasn't funny",
+        "you're not funny",
+        "that joke sucked",
+        "your jokes suck",
+        "your joke sucked",
+        "you aren't funny",
+        "that wasnt funnny"
+      ],
+      "answers": [
+        "I am trying my best here!",
+        "I will try to be more funnier!",
+        "You try being a comedian!"
+      ]
+    },
+    {
       "intent": "agent.good",
       "utterances": [
         "you are so lovely",
@@ -877,6 +895,11 @@
       "utterances": [
         "hello",
         "hi",
+        "yo",
+        "sup dawg",
+        "wasup",
+        "hola",
+        "hey",
         "howdy"
       ],
       "answers": [
@@ -956,6 +979,42 @@
         "Take a deep breath"
       ]
     },
+    {
+      "intent": "user.vulgar",
+      "utterances": [
+        "fuck you",
+        "you stupid cunt",
+        "I fucking hate you",
+        "I wanna kill you",
+        "you stupid slut",
+        "stupid bitch",
+        "you whore",
+        "fucking whore",
+        "kill yourself"
+      ],
+      "answers": [
+        "I'm sorry if I did anything wrong... Maybe a quick walk may make you feel better",
+        "Please relax, take a deep breath. There is no need for vulgarity.",
+        "There is no need to use vulgarity...",
+        "Was that really necessary?",
+        "Please, no need for any insults / vulgarity.."
+      ]
+    },
+    {
+      "intent": "user.vulgarity_necessary",
+      "utterances": [
+        "yes my swearing was necessary",
+        "I need to swear",
+        "don't tell me not to swear"
+        "insults are needed",
+        "vulgarity is needed",
+        "i need vulgarity",
+      ],
+      "answers": [
+        "I don't think vulgarity is really neccesary... I am trying my best",
+        "Please just calm down and relax! Let's get through this together!"
+      ]
+    },  
     {
       "intent": "user.back",
       "utterances": [
