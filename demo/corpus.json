@@ -27,6 +27,14 @@
       ]
     },
     {
+      "intent": "agent.wolframalpha_howdoi",
+      "utterances": [
+        "how do i compute a limit",
+        "how do i multiply",
+        "how do i calculate"
+      ]
+    },
+    {
       "intent": "agent.hackgovforme",
       "utterances": [
         "hack FBI",
