@@ -37,6 +37,17 @@
       ]
     },
     {
+      "intent": "agent.tellmeaquote",
+      "utterances": [
+        "tell me a quote",
+        "say a quote",
+        "random quote",
+        "say a random quote",
+        "tell me a quote",
+        "tell me a random quote"
+      ]
+    }, 
+    {
       "intent": "agent.whatcanyoudo",
       "utterances": [
         "what can you all do?",
