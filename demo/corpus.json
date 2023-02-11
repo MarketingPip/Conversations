@@ -27,6 +27,36 @@
       ]
     },
     {
+      "intent": "agent.whatcanyoudo",
+      "utterances": [
+        "what can you all do?",
+        "what stuff do you do",
+        "what things can you do?",
+        "what functions can you do",
+        "what tasks can you perform",
+        "tell me things you can do",
+        "what can you help me with"
+      ],
+      "answers": [
+       "I can search various websites! Such as Google, Reddit, Hulu etc.. Check Bitcoin prices! Tell you your IP! Tell you the time! Chat with you! Keep in mind I am still learning tho!"
+      ]
+    },
+    {
+      "intent": "agent.howdoIsearch",
+      "utterances": [
+        "how do I search stuff",
+        "how can I search stuff",
+        "how do I search things",
+        "tell me how to search things",
+        "how to search things",
+        "how to search??",
+        "how I search a website"
+      ],
+      "answers": [
+       "You can search various websites by typing 'search Google for funny cat photos' <br> or 'search Reddit for funny cat photos' etc.. <br> You can also search Wolframalpha by saying stuff like 'how do i multiply'"
+      ]
+    },
+    {
       "intent": "agent.wolframalpha_howdoi",
       "utterances": [
         "how do i compute a limit",
