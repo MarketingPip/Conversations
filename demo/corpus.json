@@ -26,6 +26,16 @@
       ]
     },
     {
+      "intent": "agent.whatsmyip",
+      "utterances": [
+       "what is my ip address",
+       "tell me my ip",
+       "find my ip",
+       "what is my ip",
+       "check my ip"
+      ]
+    },
+    {
       "intent": "agent.whatimeisit",
       "utterances": [
        "tell me the time",
