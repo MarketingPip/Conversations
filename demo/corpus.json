@@ -27,6 +27,19 @@
       ]
     },
     {
+      "intent": "agent.randomfacts",
+      "utterances": [
+        "tell me a random fact",
+        "say a random fact",
+        "random fact",
+        "tell me something random"
+      ],
+      "answers": [
+       "Did you know I am a chatbot?",
+       "Dogs can't fly nor pigs!"
+      ]
+    }, 
+    {
       "intent": "agent.tellmeaquoteby",
       "utterances": [
         "tell me a quote by",
