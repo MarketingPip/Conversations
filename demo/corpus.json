@@ -15,13 +15,25 @@
       ]
     },
     {
-      "intent": "agent.searchyoutube",
+      "intent": "agent.search",
       "utterances": [
-       "search youtube for",
+       "search Reddit for",
        "I want to search on youtube",
-       "search on youtube"
+       "search on youtube",
+       "search Hulu",
+       "search Google for",
+       "I want to search Google for",
       ]
     },
+    {
+      "intent": "agent.whatimeisit",
+      "utterances": [
+       "tell me the time",
+       "what is the current time",
+       "what is the time right now?",
+       "what time is it"
+      ]
+    },    
      {
       "intent": "agent.whomadeyou",
       "utterances": [
