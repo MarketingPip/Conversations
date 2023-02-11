@@ -15,6 +15,37 @@
       ]
     },
     {
+      "intent": "agent.randomquestions",
+      "utterances": [
+        "can you fly?",
+        "can you walk my dog?",
+        "can you say anything else?"
+      ],
+      "answers": [
+       "No I can't!",
+       "I am just a virtual chatbot! I am limited to my skills! :("
+      ]
+    },
+    {
+      "intent": "agent.hackgovforme",
+      "utterances": [
+        "hack FBI",
+        "hack the NSA",
+        "hack goverment for me",
+        "hack gov for me",
+        "hack the gov for me",
+        "hack the goverment for me"
+      ],
+      "answers": [
+       "Let me just download a script to hack the goverment for you! Yeah right, just kidding!",
+       "Yeah I don't think I am gonna do that for you!",
+       "BEEP BOOP, ACCESS GRANTED",
+       "Did you seriously think I was gonna do this for you?",
+       "Did you seriously think I was gonna do this for you? How about 'Search google for how to stay out of jail!'",
+       "FBI OPEN UP!"
+      ]
+    },
+    {
       "intent": "agent.search",
       "utterances": [
        "search Reddit for",
@@ -33,6 +64,20 @@
        "find my ip",
        "what is my ip",
        "check my ip"
+      ]
+    },
+    {
+      "intent": "agent.priceofBTC",
+      "utterances": [
+       "what is the price of bitcoin",
+       "price of BTC",
+       "tell me the price of BTC",
+       "tell me the price of bitcoin",
+       "how much is BTC right now?",
+       "how much is bit coin",
+       "how much is price of BTC",
+       "price of a bitcoin",
+       "how much is bitcoin"
       ]
     },
     {
