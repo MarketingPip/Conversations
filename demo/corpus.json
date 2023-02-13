@@ -257,6 +257,29 @@
       ]
     },
     {
+    "intent": "agent.definiton_of_word",
+     "utterances": [
+        "what is the definition of",
+        "tell me the definition for",
+        "what is the meaning of",
+        "what does this word mean?",
+        "definition of",
+        "definition for"
+      ]
+    },
+    {
+      "intent": "user_wants_price",
+      "utterances": [
+        "tell me the price",
+        "i want the price",
+        "price for",
+        "what is the price of"
+      ],
+      "answers": [
+       "I am not sure what you want the price for, say something like eg.. ('what is the price of bitcoin right now?')"
+      ]
+    },
+    {
       "intent": "agent.hackgovforme",
       "utterances": [
         "hack FBI",
@@ -333,6 +356,8 @@
        "how much is bit coin",
        "how much is price of BTC",
        "price of a bitcoin",
+       "how much is a bitcoin worth?",
+       "how much does it cost to buy a bitcoin",
        "how much is bitcoin"
       ]
     },
