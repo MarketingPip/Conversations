@@ -1198,6 +1198,32 @@
       ]
     },
     {
+      "intent": "user.wants.a.insulted",
+      "utterances": [
+        "insult me",
+        "tell me a insult",
+        "i want you to insult me"
+      ],
+      "answers": [
+        "When god said there shall be light, he asked your fat-ass to move out the way!"
+      ]
+    },
+    {
+      "intent": "user.is.insulted",
+      "utterances": [
+        "dont insult me",
+        "why did you insult me",
+        "do not insult me",
+        "i feel insulted"
+      ],
+      "answers": [
+        "I am sorry if I insulted you and upset you in anyway!",
+        "I am sorry I didn't mean to insult you! :(",
+        "Please forgive me!",
+        "I am sorry, I did not mean to insult you by any means! Please forgive me!"
+      ]
+    },
+    {
       "intent": "user.vulgar",
       "utterances": [
         "fuck you",
