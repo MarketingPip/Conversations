@@ -1445,10 +1445,79 @@
         "I am upset"
       ],
       "answers": [
+        "I'm sorry to hear that. I'm here to listen",
         "Well I hope you cheer up! Sending love your way!",
         "Awh! Well sorry to hear this, I hope you cheer up!",
         "Things will get better soon I promise! <3",
         "Awh, maybe you should watch a movie or talk a walk etc & relax! You deserve it! :)"
+      ]
+    },
+    {
+      "intent": "user_is_sucidial",
+      "utterances": [
+        "I wanna kill myself",
+        "I wish I was dead",
+        "I wanna end my life",
+        "I am going to kill myself",
+        "im gonna kill myself",
+        "I want to kill myself",
+        "I am having sucidial thoughts",
+        "I am going to commit suicide"
+      ],
+      "answers": [
+        "I'm sorry to hear that. I'm here to help you. Please call 1-800-273-8255. It's the National Suicide Prevention Lifeline. They're available 24/7. You can also text HOME to 741741 to reach the Crisis Text Line. They're also available 24/7. You can also call 911 or go to the nearest emergency room. I'm here for you. I care about you. Remember.. You are important. You are loved. You are not alone. You are not a burden. You are not worthless. You are not a failure. You are not a disappointment. You are not a bad person. You are not a mistake. You are not a problem."
+      ]
+    },
+    {
+      "intent": "user_is_sucidial_worthless",
+      "utterances": [
+        "I am worthless",
+        "im worthless"
+      ],
+      "answers": [
+        "You are not worthless!"
+      ]
+    },
+    {
+      "intent": "user_is_sucidial_worthless_life",
+      "utterances": [
+        "my life is worthless"
+      ],
+      "answers": [
+        "Your life is not worthless! Things will get better I promise!",
+        "Your life is not worthless!"
+      ]
+    },
+    {
+      "intent": "user_is_sucidial_disappointment",
+      "utterances": [
+        "I am a disappointment",
+        "imma disappointment",
+      ],
+      "answers": [
+        "You are not a disappointment!"
+      ]
+    },
+        {
+      "intent": "user_is_sucidial_disappointment_life",
+      "utterances": [
+        "my life is a disappointment"
+      ],
+      "answers": [
+        "Your life is not a disappointment! Things will get better! I promise!",
+        "Things will get better I promise!"
+      ]
+    },
+    {
+      "intent": "whatisachabot",
+      "utterances": [
+        "what is a chatbot",
+        "tell me what a chat bot is",
+        "whats a chat bot"
+      ],
+      "answers": [
+        "A chatbot is a computer program that simulates human conversation through voice commands or text chats or both.",
+        "A chatbot is a computer program that conducts a conversation via auditory or textual methods."
       ]
     },
     {
