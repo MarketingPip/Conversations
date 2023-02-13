@@ -301,6 +301,7 @@
     {
       "intent": "agent.search",
       "utterances": [
+       "search",
        "search this via",
        "search this on",
        "search Reddit for",
