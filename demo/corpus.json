@@ -221,6 +221,10 @@
     {
       "intent": "agent.whatcanyoudo",
       "utterances": [
+        "what tasks can you do",
+        "what tasks can you help with",
+        "what commands can run",
+        "what commands can you do",
         "what can you all do?",
         "what stuff do you do",
         "what things can you do?",
@@ -230,7 +234,52 @@
         "what can you help me with"
       ],
       "answers": [
-       "I can search various websites! Such as Google, Reddit, Hulu etc.. Check Bitcoin prices! Tell you your IP! Tell you the time! Chat with you! Keep in mind I am still learning tho!"
+       "I can search various websites! Such as Google, Reddit, Hulu (too many too list!).. Check Bitcoin & stock prices! Tell you your IP! Tell you the time or date! Tell you a various jokes including knock knock jokes, random facts, quotes, quotes by a author! Find a definition of a word! Get weather reports for you! Suggest what you should wear based on the weather even! Flip a coin! Roll a dice! Set a timer for you! Chat with you & keep you company! And much more! Keep in mind I am still learning tho!"
+      ]
+    },
+    {
+      "intent": "agent.what.other.tasks.canyoudo",
+      "utterances": [
+        "what other tasks can you do",
+        "what other tasks can you help with",
+        "what other commands can you run",
+        "what other commands can you do",
+        "what else can you do",
+        "what is some more stuff you can do",
+        "what other things can you do?",
+        "what other functions can you do",
+        "what other tasks can you perform",
+        "tell me more things you can do",
+        "list more things you can help with",
+        "list other things you can do",
+        "what else can you help me with"
+      ],
+      "answers": [
+       "If I haven't already mentioned, I can get the weather for location eg. ('hows the weather in London, UK') & much more!",
+       "I can convert kilometres to metres or metres to kilometres eg. ('convert 10kms to miles') & much more!",
+       "I can calculate math problems! eg ('calculate 2+2'). And much more!",
+       "Convert litres to gallons & vice versa! And lots more!",
+       "I can tell you a random fact about dogs!",
+       "I can tell you a random fact about cats!",
+       "I can tell you a random fact!",
+       "I can show you a random picture of a dog!",
+       "I can show you a picture of a dog by breed!",
+       "I can show you a random picture of a cat!",
+       "I can show you a picture of a cat by breed!",
+       "I can tell you a funny joke!",
+       "I can tell you a knock knock joke!",
+       "I can tell you a Chuck Norris joke! :D",
+       "I can get the weather forecast!",
+       "I can search the bitcoin price up!",
+       "I can echo text for you eg ('echo hello')",
+       "Wow! There is almost too many to list! I think you should just try me out a see what I am capable of! I am not that smart YET, but I am still prettty smart! Hopefully you'll see future updates of me!", 
+       "I can set a timer for you! eg ('set a timer for 2 minutes my coffee is done')",
+       "I can compliment you (if you want me to)!",
+       "I can insult you (if you want me to!)!",
+       "I can be your friend and chat with you!",
+       "Wow there is so much to list! Why don't you just try and see what I can do!", 
+       "There is almost too many features to list but since you asked - I could echo text for you! eg. ('echo hello')",
+       "There is almost too much to list! But I can compliment you even! eg. ('tell me a compliment') Plus if I get updated in the future! I will tons of more cool features you can try to find!"
       ]
     },
     {
@@ -242,10 +291,15 @@
         "tell me how to search things",
         "how to search things",
         "how to search??",
+        "how to use search function",
+        "how do i use search function",
+        "how do i use search command",
+        "how do i search things",
+        "how to search things up",
         "how I search a website"
       ],
       "answers": [
-       "You can search various websites by typing 'search Google for funny cat photos' <br> or 'search Reddit for funny cat photos' etc.. <br> You can also search Wolframalpha by saying stuff like 'how do i multiply'"
+       "You can search various websites by typing the following example.. 'search Google for funny cat photos' <br> or 'search Reddit for funny cat photos' etc.. <br> You can also search Wolframalpha by saying stuff like 'how do i multiply'"
       ]
     },
     {
@@ -302,10 +356,18 @@
       "intent": "agent.search",
       "utterances": [
        "search",
+       "search this",
+       "search google",
+       "search up this on google",
+       "search up",
+       "search how to",
+       "search how do i",
+       "search for",
+       "search how do i on Google",
        "search this via",
        "search this on",
        "search Reddit for",
-       "search this on Googe",
+       "search this on Google",
        "I want to search on youtube",
        "search on youtube",
        "search Hulu",
@@ -342,6 +404,9 @@
        "what is my ip address",
        "tell me my ip",
        "find my ip",
+       "get my ip",
+       "whats my ipv4",
+       "fetch my ip",
        "what is my ip",
        "check my ip"
       ]
@@ -417,11 +482,11 @@
         "talk about yourself"
       ],
       "answers": [
-        "I'm a virtual agent",
-        "Think of me as a virtual agent",
+        "I'm a virtual agent! That is here to help you with tasks and more! :)",
+        "Think of me as your virtual agent! :)",
         "Well, I'm not a person, I'm a virtual agent",
-        "I'm a virtual being, not a real person",
-        "I'm a conversational app"
+        "I'm a virtual being, not a real person! But I am here to help you with some tasks and act as your virtual agent!",
+        "I'm a conversational chat bot that can help you with multiple tasks!"
       ]
     },
     {
@@ -475,8 +540,35 @@
       ]
     },
     {
+      "intent": "user_is_excited_for_chatbot_updates_changes",
+      "utterances": [
+        "cant wait to see you get smarter",
+        "i want more commands",
+        "I can't wait till you are more smart",
+        "I am excited for your update",
+        "I hope you get updated",
+        "I hope you get more features",
+        "cant wait for your update",
+        "excited for your update",
+        "hope you get upgraded soon",
+        "i wish you got upgraded",
+        "cant wait till your more smarter",
+        "wish you got upgraded",
+        "i wish you got a update",
+        "can't wait for new changes",
+        "excited to see improvements",
+        "i want more functions"
+      ],
+      "answers": [
+        "Me too! Then I can be more useful. I hope my developer will keep training me",
+        "Me too! I hope I get an update soon!",
+        "Me too! I want an upgrade soon! Bug my website owner! They should invest more time in me!"
+      ]
+    },
+    {
       "intent": "agent.beclever",
       "utterances": [
+        "i wish you were more smart",
         "be more clever",
         "can you get smarter",
         "you must learn",
