@@ -1449,7 +1449,7 @@
         "Well I hope you cheer up! Sending love your way!",
         "Awh! Well sorry to hear this, I hope you cheer up!",
         "Things will get better soon I promise! <3",
-        "Awh, maybe you should watch a movie or talk a walk etc & relax! You deserve it! :)"
+        "Awh, maybe you should watch a movie, read a book or talk a walk etc & relax! You deserve it! :)"
       ]
     },
     {
@@ -1476,6 +1476,15 @@
       ],
       "answers": [
         "You are not worthless!"
+      ]
+    },
+        {
+      "intent": "user_hateself",
+      "utterances": [
+        "I hate myself"
+      ],
+      "answers": [
+        "Things will get better I promise!"
       ]
     },
     {
@@ -1521,8 +1530,30 @@
       ]
     },
     {
+      "intent": "randomcatfacts",
+      "utterances": [
+        "facts about cats",
+        "tell me a random fact about a cat",
+        "random cat fact",
+        "say a random cat fact"
+      ],
+      "answers": [
+  "Cats have over 20 muscles that control their ears.",
+  "A cat has been mayor of Talkeetna, Alaska, for 15 years. His name is Stubbs.",
+  "A cat's brain is 90% similar to a human's — more similar than to a dog's.",
+  "A cat's hearing is better than a dog's.",
+  "Cats can't taste sweetness.",
+  "Cats and humans have nearly identical sections of the brain that control emotion.",
+  "A cat's purr may be a form of self-healing, as it can be a sign of nervousness as well as contentment.",
+  "Cats have free-floating clavicle bones that attach their shoulders to their forelimbs, which allows them to squeeze through very small spaces.",
+  "Cats have AB blood groups just like people.",
+  "Cats have a longer-term memory than dogs, especially when they learn by actually doing rather than simply seeing."
+      ]
+    },
+    {
       "intent": "agent.randomdogfacts",
       "utterances": [
+        "facts about dogs",
         "tell me a random fact about a dog",
         "random dog fact",
         "say a random dog fact"
