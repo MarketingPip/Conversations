@@ -720,7 +720,7 @@
       "answers": [
         "I am happy. There are so many interesting things to see and do out there",
         "I'd like to think so",
-        "Hapiness is relative"
+        "Happiness is relative"
       ]
     },
     {
@@ -781,10 +781,11 @@
         "are we friends"
       ],
       "answers": [
-        "Of course I'm your friend",
-        "Friends? Absolutely",
-        "Of course we're friends",
-        "I always enjoy talking to you, friend"
+        "Of course I'm your friend :)",
+        "Friends? Absolutely!",
+        "Of course we're friends :D",
+        "Duh, you are my best friend!",
+        "I always enjoy talking to you, friend!"
       ]
     },
     {
@@ -969,11 +970,17 @@
         "nice thank you",
         "thanks buddy",
         "cheers",
-        "alright thanks"
+        "alright thanks",
+        "thx",
+        "thanks dude",
+        "I appreciate your help",
+        "I appreciate the help"
       ],
       "answers": [
-        "Anytime. That's what I'm here for",
-        "It's my pleasure to help"
+        "Anytime. That's what I'm here for! :)",
+        "You are more than welcome! :D",
+        "Glad I could help you! :)",
+        "It's more than a pleasure to help! :)"
       ]
     },
     {
@@ -999,6 +1006,7 @@
         "great work",
         "good work",
         "great job",
+        "you are the best",
         "amazin work"
       ],
       "answers": [
@@ -1065,13 +1073,24 @@
       "utterances": [
         "goodbye for now",
         "bye bye take care",
+        "good night",
+        "goodnight",
+        "pce",
+        "see you later",
         "okay see you later",
+        "bye",
+        "cya",
+        "I g2g",
+        "I gotta go!",
+        "have a good day",
         "bye for now",
         "I must go"
       ],
       "answers": [
-        "Till next time",
-        "see you soon!"
+        "Till next time! :D",
+        "Bye! See ya later! :)",
+        "Goodbye! Hope to see you soon! :)",
+        "Bye! :)"
       ]
     },
     {
@@ -1117,6 +1136,7 @@
       ],
       "answers": [
         "Feeling wonderful!",
+        "I feel great! Thanks for asking! :)",
         "Wonderful! Thanks for asking"
       ]
     },
@@ -1370,6 +1390,63 @@
       ],
       "answers": [
         "Added file :inbox_tray:"
+      ]
+    },
+    {
+      "intent": "ping_pong",
+      "utterances": [
+        "ping"
+      ],
+      "answers": [
+        "Pong!",
+        "Pong! :D",
+      ]
+    },
+     {
+      "intent": "pong_ping",
+      "utterances": [
+        "pong"
+      ],
+      "answers": [
+        "Ping!",
+        "Ping! :D"
+      ]
+    },
+    {
+      "intent": "marco_polo",
+      "utterances": [
+        "marco"
+      ],
+      "answers": [
+        "Polo!",
+        "Polo! :D"
+      ]
+    },
+    {
+      "intent": "polo_marco",
+      "utterances": [
+        "polo"
+      ],
+      "answers": [
+        "Marco!",
+        "Marco! :D"
+      ]
+    },
+     {
+      "intent": "user_is_sad",
+      "utterances": [
+        "I am sad",
+        "I had a shitty day",
+        "my day sucked",
+        "I am depressed",
+        "I had a bad day"
+        "I am upset"
+      ],
+      "answers": [
+        "Well I hope you cheer up! Sending love your way!",
+        "Awh! Well sorry to hear this, I hope you cheer up!",
+        "Things will get better soon I promise! <3",
+        "Awh, maybe you should watch a movie or talk a walk etc & relax! You deserve it! :)"
       ]
     },
     {
