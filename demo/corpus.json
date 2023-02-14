@@ -285,16 +285,12 @@
     {
       "intent": "agent.howdoIsearch",
       "utterances": [
-        "how do I search stuff?",
-        "how can I search stuff?",
-        "how do I search things?",
-        "tell me how to search things?",
+        "how do I search stuff",
+        "how can I search stuff",
+        "how do I search things",
+        "tell me how to search things",
         "how to search things",
-        "how to use search function",
-        "how do i use search function",
-        "how do i use search command",
-        "how do i search things",
-        "how to search things up?",
+        "how to search??",
         "how I search a website"
       ],
       "answers": [
