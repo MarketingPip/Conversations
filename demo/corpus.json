@@ -236,16 +236,10 @@
     {
       "intent": "agent.howdoIsearch",
       "utterances": [
-        "how do I search stuff",
-        "how can I search stuff",
-        "how do I search things",
-        "tell me how to search things",
-        "how to search things",
-        "how to search??",
-        "how I search a website"
+       "just a random test"
       ],
       "answers": [
-       "You can search various websites by typing the following example.. 'search Google for funny cat photos' <br> or 'search Reddit for funny cat photos' etc.. <br> You can also search Wolframalpha by saying stuff like 'how do i multiply'"
+       "You can search various websites by typing 'search Google for funny cat photos' <br> or 'search Reddit for funny cat photos' etc.. <br> You can also search Wolframalpha by saying stuff like 'how do i multiply'"
       ]
     },
     {
