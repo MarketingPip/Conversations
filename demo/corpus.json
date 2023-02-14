@@ -355,6 +355,19 @@
     {
       "intent": "agent.search",
       "utterances": [
+       "search",
+       "search on",
+       "search google",
+       "search reddit",
+       "search reddit for"
+       "search this",
+       "search google",
+       "search up this on google",
+       "search up",
+       "search how to",
+       "search how do i",
+       "search for",
+       "search how do i on Google",
        "search this via",
        "search this on",
        "search Reddit for",
