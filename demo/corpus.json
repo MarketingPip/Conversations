@@ -221,10 +221,6 @@
     {
       "intent": "agent.whatcanyoudo",
       "utterances": [
-        "what tasks can you do",
-        "what tasks can you help with",
-        "what commands can run",
-        "what commands can you do",
         "what can you all do?",
         "what stuff do you do",
         "what things can you do?",
@@ -234,52 +230,7 @@
         "what can you help me with"
       ],
       "answers": [
-       "I can search various websites! Such as Google, Reddit, Hulu (too many too list!).. Check Bitcoin & stock prices! Tell you your IP! Tell you the time or date! Tell you a various jokes including knock knock jokes, random facts, quotes, quotes by a author! Find a definition of a word! Get weather reports for you! Suggest what you should wear based on the weather even! Flip a coin! Roll a dice! Set a timer for you! Chat with you & keep you company! And much more! Keep in mind I am still learning tho!"
-      ]
-    },
-    {
-      "intent": "agent.what.other.tasks.canyoudo",
-      "utterances": [
-        "what other tasks can you do",
-        "what other tasks can you help with",
-        "what other commands can you run",
-        "what other commands can you do",
-        "what else can you do",
-        "what is some more stuff you can do",
-        "what other things can you do?",
-        "what other functions can you do",
-        "what other tasks can you perform",
-        "tell me more things you can do",
-        "list more things you can help with",
-        "list other things you can do",
-        "what else can you help me with"
-      ],
-      "answers": [
-       "If I haven't already mentioned, I can get the weather for location eg. ('hows the weather in London, UK') & much more!",
-       "I can convert kilometres to metres or metres to kilometres eg. ('convert 10kms to miles') & much more!",
-       "I can calculate math problems! eg ('calculate 2+2'). And much more!",
-       "Convert litres to gallons & vice versa! And lots more!",
-       "I can tell you a random fact about dogs!",
-       "I can tell you a random fact about cats!",
-       "I can tell you a random fact!",
-       "I can show you a random picture of a dog!",
-       "I can show you a picture of a dog by breed!",
-       "I can show you a random picture of a cat!",
-       "I can show you a picture of a cat by breed!",
-       "I can tell you a funny joke!",
-       "I can tell you a knock knock joke!",
-       "I can tell you a Chuck Norris joke! :D",
-       "I can get the weather forecast!",
-       "I can search the bitcoin price up!",
-       "I can echo text for you eg ('echo hello')",
-       "Wow! There is almost too many to list! I think you should just try me out a see what I am capable of! I am not that smart YET, but I am still prettty smart! Hopefully you'll see future updates of me!", 
-       "I can set a timer for you! eg ('set a timer for 2 minutes my coffee is done')",
-       "I can compliment you (if you want me to)!",
-       "I can insult you (if you want me to!)!",
-       "I can be your friend and chat with you!",
-       "Wow there is so much to list! Why don't you just try and see what I can do!", 
-       "There is almost too many features to list but since you asked - I could echo text for you! eg. ('echo hello')",
-       "There is almost too much to list! But I can compliment you even! eg. ('tell me a compliment') Plus if I get updated in the future! I will tons of more cool features you can try to find!"
+       "I can search various websites! Such as Google, Reddit, Hulu etc.. Check Bitcoin prices! Tell you your IP! Tell you the time! Chat with you! Keep in mind I am still learning tho!"
       ]
     },
     {
