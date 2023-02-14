@@ -355,12 +355,13 @@
     {
       "intent": "agent.search",
       "utterances": [
+       "search",
        "search on",
        "search google",
        "search reddit",
        "search this for this this",
        "search reddit for something",
-       "search reddit for"
+       "search reddit for",
        "search this",
        "search google",
        "search up this on google",
