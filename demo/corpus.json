@@ -350,12 +350,12 @@
     {
       "intent": "agent.search",
       "utterances":[ 
-        "search Reddit for", 
-        "I want to search on youtube", 
-        "search on youtube", 
-        "search Hulu",
-        "search Google for", 
-        "I want to search Google for" 
+       "search Reddit for",
+       "I want to search on youtube",
+       "search on youtube",
+       "search Hulu",
+       "search Google for",
+       "I want to search Google for"
       ]
     },
     {
