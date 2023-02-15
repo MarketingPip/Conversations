@@ -398,7 +398,7 @@
       ]
     },
     {
-      "intent": "knock_knock_jokes",
+      "intent": "agent.knock_knock_jokes",
       "utterances": [
        "i wanna hear a knock knock joke",
        "tell me a knock knock joke",
@@ -407,7 +407,7 @@
       ]
     },
     {
-      "intent": "flip_a_coin",
+      "intent": "agent.flip_a_coin",
       "utterances": [
        "flip a coin for me",
        "flip a coin",
@@ -417,7 +417,7 @@
       ]
     },
     {
-      "intent": "roll_a_dice",
+      "intent": "agent.roll_a_dice",
       "utterances": [
        "roll a dice for me",
        "roll a dice",
@@ -428,7 +428,7 @@
       ]
     },
     {
-      "intent": "convert_km_to_miles",
+      "intent": "agent.convert_km_to_miles",
       "utterances": [
        "convert 10 kilometres to miles",
        "change 10 kms to miles",
@@ -454,7 +454,7 @@
       ]
     },
     {
-      "intent": "echo_text_for_user",
+      "intent": "agent.echo_text_for_user",
       "utterances": [
        "echo",
        "echo hello",
@@ -466,7 +466,7 @@
       ]
     },
     {
-      "intent": "setTimerForUser",
+      "intent": "agent.setTimerForUser",
       "utterances": [
        "I want you to set timer for",
        "set a timer for",
