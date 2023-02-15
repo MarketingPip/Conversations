@@ -16,6 +16,47 @@
        "My name is Tom!"
       ]
     },
+     {
+      "intent": "what_to_call_agent",
+      "utterances": [
+	"what should I call you",      
+        "what can I call you",
+        "what name should I call you",
+        "what name do you want me to call you",
+        "what should I call you by"
+      ],
+      "answers": [
+       "You can call me Tom! :)"
+      ]
+    },	  
+    {
+      "intent": "user_introduced_himself",
+      "utterances": [
+        "hi my name is",
+        "hello my name is",
+        "my name is"
+      ],
+      "answers": [
+       "Very glad to meet you! :)",      
+       "Glad to meet you!"
+      ]
+    },
+    {
+      "intent": "user_introduced_himself_before",
+      "utterances": [
+	"do you not remember me",      
+        "do you not remember what my name is",
+        "did you forget my name",
+	"did you forget who I am",
+	"you forgot who I am",
+	"you forgot my name",      
+        "do you not know what my name is"
+      ],
+      "answers": [       
+       "I must have forgot! My apologizes! I am still learning! Please bare with me!",	      
+       "My apologizes if I forgot! Please don't take any offence!"
+      ]
+    },	  	  
     {
       "intent": "agent.doyouhavename",
       "utterances": [
@@ -2639,6 +2680,7 @@
 	"knock",      
 	"roll",
 	"dice",
+	"jokes",      
 	"norris",
 	"morris",
 	"rat",      
@@ -2649,7 +2691,9 @@
 	"bit coin",      
 	"flip",
 	"weather",
-	"time",      
+	"time",
+	"chuck",
+	"jared",     
 	"quarter",     
         "what should I do?"
       ],
