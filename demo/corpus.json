@@ -2219,7 +2219,8 @@
         "tell me a random fact about a chuck norris",
         "random chuck norris fact",
         "say a random chuck fact",
-	"tell me a chuck norris fact"
+	"chuck norris fact",      
+	"tell me a chuck norris fact",
 	"i wanna hear a chuck norris fact"      
       ],
       "answers": [
