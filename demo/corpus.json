@@ -278,7 +278,7 @@
        "I can insult you (if you want me to!)!",
        "I can be your friend and chat with you!",
        "Wow there is so much to list! Why don't you just try and see what I can do!", 
-       "There is almost too many features to list but since you asked - I could echo text for you! eg. ('echo hello')",
+       "There is almost too many features to list but since you asked - I could echo text for you! eg. ('echo hello') or ('print hello') & more ways!",
        "There is almost too much to list! But I can compliment you even! eg. ('tell me a compliment') Plus if I get updated in the future! I will tons of more cool features you can try to find!"
       ]
     },
@@ -396,7 +396,90 @@
        "tell me the weather for",
        "hows weather for"
       ]
-    },   
+    },
+    {
+      "intent": "knock_knock_jokes",
+      "utterances": [
+       "i wanna hear a knock knock joke",
+       "tell me a knock knock joke",
+       "say a knock knock joke",
+       "knock knock joke"
+      ]
+    },
+    {
+      "intent": "flip_a_coin",
+      "utterances": [
+       "flip a coin for me",
+       "flip a coin",
+       "flip coin",
+       "flip coin for me",
+       "i want you to flip a coin"
+      ]
+    },
+    {
+      "intent": "roll_a_dice",
+      "utterances": [
+       "roll a dice for me",
+       "roll a dice",
+       "roll dice",
+       "roll for me",
+       "i want you to roll a dice",
+       "i want you to roll dice"
+      ]
+    },
+    {
+      "intent": "convert_km_to_miles",
+      "utterances": [
+       "convert 10 kilometres to miles",
+       "change 10 kms to miles",
+       "convert 10km to mile",
+       "change 10 kilometre to mile",
+       "convert 100 km to miles",
+       "change 10 km to mile",
+       "convert one hundred kilometres to miles",
+       "change ten kilometres to mile",
+       "convert ten km to miles",
+       "convert 10 km to mile"
+      ]
+    },
+    {
+      "intent": "convert_miles_to_km",
+      "utterances": [
+       "convert 10 miles to kilometres",
+       "change 10 miles to kms",
+       "convert 10mile to km",
+       "change 10 mile to kilometre",
+       "convert 100 miles to km ",
+       "change 10 mile to km"
+      ]
+    },
+    {
+      "intent": "echo_text_for_user",
+      "utterances": [
+       "echo",
+       "echo hello",
+       "I want you to echo",
+       "say whatever",
+       "print whatever",
+       "say this",
+       "I want you to say"
+      ]
+    },
+    {
+      "intent": "setTimerForUser",
+      "utterances": [
+       "I want you to set timer for",
+       "set a timer for",
+       "start a timer for",
+       "set timer for when",
+       "timer for",
+       "timer for when",
+       "set a timer for 2 minutes",
+       "set a timer for two minutes",
+       "timer for thirty seconds",
+       "I want a timer for when"
+      ]
+    }, 
     {
       "intent": "agent.whatsmyip",
       "utterances": [
@@ -417,6 +500,7 @@
        "price of BTC",
        "tell me the price of BTC",
        "tell me the price of bitcoin",
+       "price of bitcoin today?",
        "how much is BTC right now?",
        "how much is bit coin",
        "how much is price of BTC",
@@ -433,6 +517,15 @@
        "what is the current time",
        "what is the time right now?",
        "what time is it"
+      ]
+    },
+    {
+      "intent": "agent.what_is_the_date",
+      "utterances": [
+       "tell me the date",
+       "what is the current date",
+       "what is the date right now?",
+       "what date is it"
       ]
     },    
      {
