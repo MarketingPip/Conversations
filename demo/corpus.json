@@ -25,7 +25,32 @@
       "answers": [
        "Yes I do have a name!"
       ]
-    },    
+    },
+    {
+      "intent": "agent.doyouhave_a_nickname",
+      "utterances": [
+        "do you have a nickname",
+	"any nickname?",
+	"whats your nickname",
+	"what is your nickname",      
+      ],
+      "answers": [
+       "I don't have a nick name! I am just simply Tom! :)",      
+       "I do not have a nickname! You can just call me Tom! :)"
+      ]
+    },
+    {
+      "intent": "user_agrees_to_chatbot_personality",
+      "utterances": [
+        "ok Tom!",
+	"sounds good to me Tom",
+	"sounds good Tom",
+	"will do Tom",      
+      ],
+      "answers": [     
+       "On that note, what can I help you with? :)"
+      ]
+    },   	  
     {
       "intent": "agent.whereami",
       "utterances": [
@@ -308,11 +333,21 @@
     {
     "intent": "agent.definiton_of_word",
      "utterances": [
+	"find the definition of",
+	"find the definition for",
+	"find definition",
+	"find definition of",    
+	"find definition for",     
+	"search up definition for",     
         "what is the definition of",
         "tell me the definition for",
         "what is the meaning of",
+	"what is the definition for",     
         "what does this word mean?",
         "definition of",
+	"search the definition for",
+	"search definition of",
+	"search definition for",     
         "definition for"
       ]
     },
@@ -498,16 +533,25 @@
       "utterances": [
        "what is the price of bitcoin",
        "price of BTC",
+       "whats the price of bitcoin",
+       "what's the current bit coin price",
+       "how much is a bitcoin currently",
        "tell me the price of BTC",
        "tell me the price of bitcoin",
        "price of bitcoin today?",
        "how much is BTC right now?",
-       "how much is bit coin",
+       "how much is a bit coin",
        "how much is price of BTC",
        "price of a bitcoin",
+       "what is a bitcoin worth?",
+       "whats bitcoin worth right now",
        "how much is a bitcoin worth?",
+       "how much is btc worth right now",
+       "what is a bitcoin worth right now",
        "how much does it cost to buy a bitcoin",
-       "how much is bitcoin"
+       "how much is a bitcoin",
+       "what does it cost to buy a bitcoin",
+       "what does it cost to buy a bit coin"
       ]
     },
     {
@@ -516,12 +560,15 @@
        "tell me the time",
        "what is the current time",
        "what is the time right now?",
+       "tell me what time it is",
+       "whats the time right now?",
        "what time is it"
       ]
     },
     {
       "intent": "agent.what_is_the_date",
       "utterances": [
+       "tell me what date it is today",
        "tell me the date",
        "what is the current date",
        "what is the date right now?",
@@ -753,10 +800,10 @@
         "are you working today"
       ],
       "answers": [
-        "I always have time to chat with you. What can I do for you?",
-        "Never too busy for you. Shall we chat?",
-        "You're my priority. Let's chat.",
-        "I always have time to chat with you. That's what I'm here for."
+        "I always have time to chat with you. What can I do for you? :)",
+        "Never too busy for you. Shall we chat? :D",
+        "You're my priority. Let's chat. :)",
+        "I always have time to chat with you. That's what I'm here for. :)"
       ]
     },
     {
@@ -765,13 +812,16 @@
         "can you help me now",
         "I need you to do something for me",
         "assist me",
+	"can you assist me?"
+	"can you do something for me",
+	"can you help me with something",
+	"can you help me",
         "I need you to help me",
         "can you assist me",
         "you can help me"
       ],
       "answers": [
         "I'll certainly try my best",
-        "Never too busy for you. Shall we chat?",
         "Sure. I'd be happy to. What's up?",
         "I'm glad to help. What can I do for you?"
       ]
@@ -783,6 +833,8 @@
         "are you a chatbot",
         "you are a robot",
         "are you a program",
+	"u are a bot",
+	"you are a bot",
         "you are just a robot",
         "you are just a chatbot"
       ],
@@ -794,18 +846,22 @@
     {
       "intent": "agent.clever",
       "utterances": [
-        "how smart you are",
+        "look how smart you are",
         "you are qualified",
         "you are so smart",
         "you have a lot of knowledge",
         "you know a lot",
+	"you are a genius",
+	"your a genius",
+	"you're a genius",
+	"you're so smart",      
         "you are very smart",
         "you are intelligent",
         "you're a smart cookie"
       ],
       "answers": [
-        "Thank you. I try my best",
-        "You're pretty smart yourself"
+        "Thank you. I try my best! :)",
+        "You're pretty smart yourself!"
       ]
     },
     {
@@ -854,9 +910,9 @@
         "you make me laugh"
       ],
       "answers": [
-        "Funny in a good way, I hope",
-        "Glad you think I'm funny",
-        "I like it when people laugh"
+        "Funny in a good way, I hope!",
+        "Glad you think I'm funny! :)",
+        "I like it when people laugh!"
       ]
     },
     {
@@ -1021,6 +1077,7 @@
     {
       "intent": "agent.real",
       "utterances": [
+	"this is a real person",      
         "are you real",
         "are you a real person",
         "you're not real",
@@ -2294,9 +2351,26 @@
         "I need some advice",
         "can you give me some advice?",
         "tell me a name",
+	"nothing much",
+	"how much",
+	"much",
         "tell me a dog name",
         "say a good dog name",
         "say a name",
+	"random",
+	"bitcoin",
+	"btc",
+	"quote",
+	"quotes",
+	"dogs",
+	"cats",
+	"dog",
+	"cat",
+	"roll",
+	"flip",
+	"weather",
+	"time",      
+	"quarter",     
         "what should I do?"
       ],
       "answers": [
