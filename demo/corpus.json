@@ -32,7 +32,7 @@
         "do you have a nickname",
 	"any nickname?",
 	"whats your nickname",
-	"what is your nickname",      
+	"what is your nickname"
       ],
       "answers": [
        "I don't have a nick name! I am just simply Tom! :)",      
@@ -45,7 +45,7 @@
         "ok Tom!",
 	"sounds good to me Tom",
 	"sounds good Tom",
-	"will do Tom",      
+	"will do Tom"    
       ],
       "answers": [     
        "On that note, what can I help you with? :)"
@@ -65,7 +65,7 @@
     },
     {
       "intent": "agent.randomquestions",
-      "utterances": [
+      "utterances": [      
         "can you fly?",
         "can you walk my dog?",
         "can you say anything else?"
