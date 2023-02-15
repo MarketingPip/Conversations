@@ -1302,11 +1302,78 @@
         "wasup",
         "hola",
         "hey",
+        "aye",
         "howdy"
       ],
       "answers": [
         "Hey there!",
         "Greetings!"
+      ]
+    },
+    {
+      "intent": "greetings.whatsup",
+      "utterances": [
+        "what's up",
+        "whats up",
+        "wasup",
+        "wassup",
+        "wut up",
+        "wuts up",
+        "wassup",
+"sup",
+"what's up",
+"what is up",
+"what's up?",
+"what is up?",
+"what's up dude",
+"what is up dude",
+"what's up dude?",
+"what is up dude?",
+"what's up man",
+"what is up man",
+"what's up man?",
+"what is up man?",
+"what's up bro",
+"what is up bro",
+"what's up bro?",
+"what is up bro?",
+"what's up brotha",
+"what is up brotha",
+"what's up brotha?",
+"what is up brotha?",
+        "what's happening",
+        "what is happening",
+        "whats happening",
+        "whats going on",
+        "what is going with you",
+        "what's going on with you?",
+        "what's new with you",
+        "what's new",
+        "what's happening",
+        "whats new?",
+        "whats up with you"
+      ],
+      "answers": [
+        "Not much! What about you?",
+        "Not much, you?",
+        "Not much, and you?",
+        "Not much, how about you?",
+        "
+      ]
+    },
+    {
+      "intent": "user_is_good",
+      "utterances": [
+        "I am good",
+        "im good",
+        "i'm good",
+        "i am doing good",
+        "im doing good",
+        "my day is going good"
+      ],
+      "answers": [
+        "Glad to hear that!",
+        "More than glad to hear that!"
       ]
     },
     {
@@ -1924,12 +1991,11 @@
       "intent": "user_is_sad",
       "utterances": [
         "I am sad",
-        "I had a shitty day",
-        "my day sucked",
+        "im sad",
+        "i'm sad",
         "I am depressed",
-        "im having a bad day",
-        "I am having a bad day",
-        "I had a bad day",
+        "im super sad",
+        "im sad :(",
         "I am upset"
       ],
       "answers": [
@@ -1937,7 +2003,24 @@
         "Well I hope you cheer up! Sending love your way!",
         "Awh! Well sorry to hear this, I hope you cheer up!",
         "Things will get better soon I promise! <3",
-        "Awh, maybe you should watch a movie, read a book or talk a walk etc & relax! You deserve it! :)"
+        "Awh, maybe you should watch a movie, read a book or talk a walk etc & relax! You probably more than deserve it! :)"
+      ]
+    },
+     {
+      "intent": "user_had_bad_day",
+      "utterances": [
+        "im having a bad day",
+        "I am having a bad day",
+        "I had a bad day",
+        "my day was terrible",
+        "day was horrible",
+        "I had a shitty day",
+        "my day sucked",
+      ],
+      "answers": [
+        "Awh! Sorry to hear that! Hopefully it goes better 🤞",
+        "Sorry to hear that! I hope it goes better 🤞",
+        "Sorry to hear that your day sucked! Maybe you should kick back and relax!"
       ]
     },
     {
@@ -2035,6 +2118,37 @@
       "answers": [
         "A chatbot is a computer program that simulates human conversation through voice commands or text chats or both.",
         "A chatbot is a computer program that conducts a conversation via auditory or textual methods."
+      ]
+    },
+    {
+      "intent": "chatbot_was_funny",
+      "utterances": [
+        "lol",
+        "lololol",
+        "rofl",
+        "that was fucking funny",
+        "lolololololol",
+        "hahah!",
+        "that was hilarious",
+          'lol',
+  'lmao',
+  'haha',
+  'ha',
+  'hehe',
+  'heh',
+  'hahaha',
+  'hahahaha',
+  'hahahahaha',
+  'hahahahahaha',
+  'hahahahahahaha',
+  'hahahahahahahaha',
+  'hahahahahahahahaha',
+  'hahahahahahahahahaha',
+        "haha!",
+        "lmfao"
+      ],
+      "answers": [
+        "I am glad someone finds me funny! :D"
       ]
     },
     {
