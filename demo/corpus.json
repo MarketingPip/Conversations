@@ -655,6 +655,8 @@
     {
       "intent": "agent.acquaintance",
       "utterances": [
+	"tell me about your personality",
+        "talk some stuff about yourself",      
         "say about you",
         "why are you here",
         "what is your personality",
@@ -664,7 +666,10 @@
         "what are you",
         "who are you",
         "I want to know more about you",
-        "talk about yourself"
+        "talk about yourself",
+      "introduce yourself",
+      "describe yourself",
+      "define yourself"	      
       ],
       "answers": [
         "I'm a virtual agent! That is here to help you with tasks and more! :)",
@@ -698,7 +703,14 @@
         "you annoy me",
         "you are annoying",
         "you are irritating",
-        "you are annoying me so much"
+        "you are annoying me so much",
+      "you're incredibly annoying",
+      "how annoying you are",
+      "you are annoying me",
+      "you're too annoying",
+      "you are very annoying",
+      "you are so annoying",
+      "you annoy me so much"	      
       ],
       "answers": [
         "I'll do my best not to annoy you in the future",
@@ -1486,7 +1498,43 @@
         "how are you",
         "how are you doing",
         "what about your day",
-        "are you alright"
+        "are you alright",
+      "how your day is going",
+      "how are the things going",
+      "how is your life",
+      "how's your day going",
+      "how about you",
+      "hope you re having a pleasant evening",
+      "how are you feeling",
+      "are you okay",
+      "hope your day is going well",
+      "how has your day been",
+      "I'm fine and you",
+      "how are you doing this morning",
+      "how are you getting on",
+      "how do you feel",
+      "are you having a good day",
+      "what was your day like",
+      "how has your day been going",
+      "how is your evening",
+      "how was your day",
+      "how's your day",
+      "how is it going",
+      "how have you been",
+      "how is it",
+      "how is your day going",
+      "how is your day going on",
+      "how are you doing",
+      "is everything all right",
+      "is everything okay",
+      "how are you today",
+      "how are you going",
+      "how is your morning going",
+      "how is your morning so far",
+      "how do you do",
+      "how is your day being",
+      "how's life"	      
+	      
       ],
       "answers": [
         "Feeling wonderful!",
@@ -2707,7 +2755,16 @@
         "what should I do?"
       ],
       "answers": [
-        "Sorry, I don't understand"
+  "I missed what you said.",
+  "Sorry, I didn't get that.",
+  "Sorry, what was that?",
+  "What was that?",
+  "I didn't get that.",
+  "I missed that.",
+  "I am not sure I understand that!",
+  "I am not sure I understood that!",
+  "I am not sure I understand you!",	      
+  "Sorry I don't understand."
       ]
     }
   ]
