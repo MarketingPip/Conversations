@@ -2146,11 +2146,18 @@
         "I am depressed",
         "im super sad",
         "im sad :(",
+  "I'm sad",
+  "I'm depressed",
+  "I'm feeling down",
+  "I'm feeling blue",
+  "I'm feeling low",
+  "I'm feeling down in the dumps",    
         "I am upset"
       ],
       "answers": [
         "I'm sorry to hear that. I'm here to listen",
         "Well I hope you cheer up! Sending love your way!",
+	"Awh! Well let's chat! Maybe I can cheer you up! :)",      
         "Awh! Well sorry to hear this, I hope you cheer up!",
         "Things will get better soon I promise! <3",
         "Awh, maybe you should watch a movie, read a book or talk a walk etc & relax! You probably more than deserve it! :)"
