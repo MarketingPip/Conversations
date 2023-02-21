@@ -135,7 +135,7 @@
 			]
 		},
 		{
-			"intent": "calculate_a_math_problem",
+			"intent": "agent.calculate_a_math_problem",
 			"utterances": [
 				"divide 100 / 10",
 				"add 1 + 1 / 10",
