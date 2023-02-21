@@ -627,11 +627,7 @@
 			"utterances": [
 				"echo",
 				"echo hello",
-				"I want you to echo",
-				"say whatever",
-				"print whatever",
-				"say this",
-				"I want you to say"
+				"I want you to echo"
 			]
 		},
 		{
