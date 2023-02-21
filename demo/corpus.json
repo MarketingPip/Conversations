@@ -105,6 +105,75 @@
       ]
     },
     {
+      "intent": "how_did_agent_know_that",
+      "utterances": [
+        "how did you know that?",
+        "how did you know how to do that?"
+      ],
+      "answers": [
+       "How did I know what?"
+      ]
+    },
+    {
+      "intent": "how_did_agent_do_that",
+      "utterances": [
+        "how did you do that?",
+        "how can you do do that?"
+      ],
+      "answers": [
+       "How did I do what?"
+      ]
+    },	  	  
+    {
+      "intent": "tell_user_a_riddle",
+      "utterances": [
+        "tell me a riddle",
+        "can you tell me a riddle",
+	"do you know any riddles",
+	"I wanna hear a riddle",
+	"make me solve a riddle"
+	"tell me a good riddle!"      
+      ],
+    },
+    {
+      "intent": "calculate_a_math_problem",
+      "utterances": [
+        "divide 100 / 10",
+        "add 1 + 1 / 10",
+	"add two plus two",
+	"calculate two litres to gallons",
+	"convert two literes to gallons",
+	"add this for me",
+	"calculate this for me",
+	"divide this for me",
+	"multiply this for me",
+	"calculate whatever",
+	"can you add this for me",
+	"change 2 gallons to litres",
+	"calculate litres to gallons",
+	"can you calculate 2 + 2+",
+	"can you calculate this equation for me",
+	"I want you to divide 100 / 10",
+	"I want you to convert 5 litres to gallons",
+	"I want you to add",
+	"please calculate this for me",
+	"change 2 ozs to grams",
+	"convert oz to g",
+	"change 5 pounds to ounces",
+	"calculate 16 oz to lb",
+	"calculate liters to gallon",      
+	"convert liters to gallon",
+	"calculate this equation for me 2 + 2",
+	"add this equation for me 2 + 2",
+        "calculate this for me 1000 / 10",
+        "calculate this for me gallon to litre",      
+	"convert litre to gallon",
+	"change liter to gallon",
+	"changes gallon to litre",            
+	"convert 2 litres to gallons"      
+      ],
+    },	 	  
+    {
       "intent": "agent.randomquestions",
       "utterances": [      
         "can you fly?",
@@ -324,7 +393,9 @@
        "If I haven't already mentioned, I can get the weather for location eg. ('hows the weather in London, UK') & much more!",
        "I can convert kilometres to metres or metres to kilometres eg. ('convert 10kms to miles') & much more!",
        "I can calculate math problems! eg ('calculate 2+2'). And much more!",
-       "Convert litres to gallons & vice versa! And lots more!",
+       "I can convert litres to gallons & vice versa! And lots more!",
+       "I can search definition of a word for you!",      
+       "I can calculate grams to ounces etc!",	      
        "I can tell you a random fact about dogs!",
        "I can tell you a random fact about cats!",
        "I can tell you a random fact!",
@@ -337,7 +408,8 @@
        "I can roll a dice for you!",
        "I can generate a random number for you!",
        "I can search up stock prices for you!",	      
-       "I can pick a random number from eg ('pick a random number from 10 to a million')",      
+       "I can pick a random number from eg ('pick a random number from 10 to a million')",
+       "I can tell you a riddle!", 	      
        "I can tell you a knock knock joke!",
        "I can tell you a Chuck Norris joke / fact ! :D",
        "I can get the weather forecast!",
@@ -371,6 +443,9 @@
     {
       "intent": "agent.wolframalpha_howdoi",
       "utterances": [
+	"how do i do bedmas",
+	"how do i do calcus",      
+	"how do i find the square root",      
         "how do i compute a limit",
         "how do i multiply",
         "how do i calculate"
@@ -392,6 +467,9 @@
         "what does this word mean?",
         "definition of",
 	"search the definition for",
+	"can you tell me definition of",
+	"I want to know the definition for",
+        "I want to know the definition of",     
 	"search definition of",
 	"search definition for",     
         "definition for"
@@ -484,9 +562,20 @@
        "i wanna hear a knock knock joke",
        "tell me a knock knock joke",
        "say a knock knock joke",
+       "can you tell me a knock knock joke",      
        "knock knock joke"
       ]
     },
+    {
+      "intent": "user_wants_to_hear_joke",
+      "utterances": [
+       "i wanna hear a joke",
+       "tell me a joke",
+       "say a joke",
+       "can you tell me a joke",
+       "tell me a good joke"
+      ]
+    },	  
     {
       "intent": "agent.flip_a_coin",
       "utterances": [
@@ -818,6 +907,7 @@
       "utterances": [
         "how boring you are",
         "you're so boring",
+	"you are boring",      
         "you're really boring",
         "you're boring me",
         "you're incredibly boring"
@@ -1973,7 +2063,7 @@
         "I got work to do",
         "I'm busy",
         "I'm overloaded",
-        "It working",
+        "I'm working",
         "I got things to do"
       ],
       "answers": [
@@ -2325,7 +2415,7 @@
 	"tell me a chuck norris joke",
 	"say a chuck norris joke",
 	"chuck norris joke",      
-	"tell me a chuck norris fact",
+	"tell me a chuck norris fact", 
 	"i wanna hear a chuck norris fact"      
       ],
       "answers": [
@@ -2455,6 +2545,8 @@
         "facts about cats",
         "tell me a random fact about a cat",
         "random cat fact",
+	"I wanna hear a cat fact",
+	"can you tell me a random cat fact",      
         "say a random cat fact"
       ],
       "answers": [
