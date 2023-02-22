@@ -169,6 +169,24 @@
 				"convert litre to gallon",
 				"change liter to gallon",
 				"changes gallon to litre",
+			        "convert 10 kilometres to miles",
+				"change 10 kms to miles",
+				"convert 10km to mile",
+				"change 10 kilometre to mile",
+				"convert 100 km to miles",
+				"change 10 km to mile",
+				"convert one hundred kilometres to miles",
+				"change ten kilometres to mile",
+				"convert ten km to miles",
+				"convert 10 km to mile",
+			        "convert 10 miles to kilometres",
+				"change 10 miles to kms",
+				"convert 10 mile to km",
+				"miles to km",
+				"km to miles",
+				"change 10 mile to kilometre",
+				"convert 100 miles to km ",
+				"change 10 mile to km",
 				"convert 2 litres to gallons"
 			]
 		},
@@ -391,7 +409,7 @@
 			"answers": [
 				"If I haven't already mentioned, I can get the weather for location eg. ('hows the weather in London, UK') & much more!",
 				"I can convert kilometres to metres or metres to kilometres eg. ('convert 10kms to miles') & much more!",
-				"I can calculate math problems! eg ('calculate 2+2'). And much more!",
+				"I can calculate math problems inlcuding advanced problems! eg ('calculate 2+2'). And much more!",
 				"I can convert litres to gallons & vice versa! And lots more!",
 				"I can search definition of a word for you!",
 				"I can calculate grams to ounces etc!",
@@ -402,16 +420,20 @@
 				"I can show you a picture of a dog by breed!",
 				"I can show you a random picture of a cat!",
 				"I can show you a picture of a cat by breed!",
+				"I can show you a picture of a quote!",
 				"I can tell you a funny joke!",
+				"I can solve very complex math problems for you via eg ('calculate WHATEVER here')",
 				"Wow! Do I really need to list them all? There is so many! Why don't you just try something's out!",
 				"I can roll a dice for you!",
+				"I can flip a coin for you!",
 				"I can generate a random number for you!",
-				"I can search up stock prices for you!",
+				"I can search up stock prices for you! eg ('stock price for APPL')",
 				"I can pick a random number from eg ('pick a random number from 10 to a million')",
 				"I can tell you a riddle!",
 				"I can tell you a knock knock joke!",
 				"I can tell you a Chuck Norris joke / fact ! :D",
 				"I can get the weather forecast!",
+				"I can recommend what you should wear! eg ('what should I wear today?').",
 				"I can search the bitcoin price up!",
 				"I can echo text for you eg ('echo hello')",
 				"Wow! There is almost too many to list! I think you should just try me out a see what I am capable of! I am not that smart YET, but I am still prettty smart! Hopefully you'll see future updates of me!",
@@ -487,11 +509,14 @@
 			]
 		},
 		{
-			"intent": "agent.hackgovforme",
+			"intent": "agent.hackforme",
 			"utterances": [
 				"hack FBI",
 				"hack the NSA",
 				"hack goverment for me",
+				"hack this website for me",
+				"hack this for me",
+				"hack this site for me",
 				"hack gov for me",
 				"hack the gov for me",
 				"hack the goverment for me"
@@ -597,32 +622,6 @@
 			]
 		},
 		{
-			"intent": "agent.convert_km_to_miles",
-			"utterances": [
-				"convert 10 kilometres to miles",
-				"change 10 kms to miles",
-				"convert 10km to mile",
-				"change 10 kilometre to mile",
-				"convert 100 km to miles",
-				"change 10 km to mile",
-				"convert one hundred kilometres to miles",
-				"change ten kilometres to mile",
-				"convert ten km to miles",
-				"convert 10 km to mile"
-			]
-		},
-		{
-			"intent": "convert_miles_to_km",
-			"utterances": [
-				"convert 10 miles to kilometres",
-				"change 10 miles to kms",
-				"convert 10mile to km",
-				"change 10 mile to kilometre",
-				"convert 100 miles to km ",
-				"change 10 mile to km"
-			]
-		},
-		{
 			"intent": "agent.echo_text_for_user",
 			"utterances": [
 				"echo",
@@ -712,6 +711,7 @@
 				"who created you",
 				"who programmed you",
 				"did Jared make you?",
+				"who is your creator",
 				"tell me who made you"
 			],
 			"answers": [
@@ -734,6 +734,17 @@
 				"No, I am not Jared.",
 				"This is not Jared, this is just a basic chatbot. I wish I was tho.",
 				"Yes this is Jared! Just kidding, no I am not Jared... Just a chatbot!"
+			]
+		},
+		 {
+			"intent": "who_is_jared",
+			"utterances": [
+				"who is Jared",
+				"whos Jared",
+				"who's Jared"
+			],
+			"answers": [
+			"Jared is my creator, you can find more of his work published on github <a href='https://github.com/MarketingPipeline'>here</a>"
 			]
 		},
 		{
