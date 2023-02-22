@@ -172,7 +172,7 @@
 				"convert litre to gallon",
 				"change liter to gallon",
 				"changes gallon to litre",
-			        "convert 10 kilometres to miles",
+				"convert 10 kilometres to miles",
 				"change 10 kms to miles",
 				"convert 10km to mile",
 				"change 10 kilometre to mile",
@@ -182,7 +182,7 @@
 				"change ten kilometres to mile",
 				"convert ten km to miles",
 				"convert 10 km to mile",
-			        "convert 10 miles to kilometres",
+				"convert 10 miles to kilometres",
 				"change 10 miles to kms",
 				"convert 10 mile to km",
 				"miles to km",
@@ -223,7 +223,7 @@
 			"answers": [
 				"What would you like to calculate? Example(s) add 1 + 1, convert 5 litres to gallons."
 			]
-		}, 
+		},
 		{
 			"intent": "agent.randomfacts",
 			"utterances": [
@@ -498,7 +498,7 @@
 			"answers": [
 				"I am not to sure how to do that! You can try & search various websites by typing the following example.. 'search Google for how do I learn code' <br> or you can also search Wolframalpha by saying stuff like 'how do i multiply'"
 			]
-		}, 
+		},
 		{
 			"intent": "agent.wolframalpha_howdoi",
 			"utterances": [
@@ -541,7 +541,7 @@
 				"tell me about",
 				"what is"
 			]
-		},	 
+		},
 		{
 			"intent": "user_wants_price",
 			"utterances": [
@@ -629,7 +629,7 @@
 				"hows weather for"
 			]
 		},
-			{
+		{
 			"intent": "agent.what_is_user_location",
 			"utterances": [
 				"What is my location",
@@ -639,10 +639,10 @@
 				"find my location",
 				"get my location",
 				"fetch my location",
-				"check my location"
+				"check my location",
 				"tell me my location"
 			]
-		},	 
+		},
 		{
 			"intent": "agent.knock_knock_jokes",
 			"utterances": [
@@ -768,7 +768,7 @@
 				"what week of the year of is it",
 				"what week is it"
 			]
-		}, 
+		},
 		{
 			"intent": "agent.what_is_the_date",
 			"utterances": [
@@ -792,7 +792,7 @@
 				"what day are we living in",
 				"what day is it"
 			]
-		}, 
+		},
 		{
 			"intent": "agent.what_is_the_month",
 			"utterances": [
@@ -805,7 +805,7 @@
 				"what month is it right now",
 				"what month is it"
 			]
-		},  
+		},
 		{
 			"intent": "agent.what_is_the_year",
 			"utterances": [
@@ -818,7 +818,7 @@
 				"what year is it right now",
 				"what year is it"
 			]
-		},  	 
+		},
 		{
 			"intent": "agent.whomadeyou",
 			"utterances": [
@@ -851,7 +851,7 @@
 				"Yes this is Jared! Just kidding, no I am not Jared... Just a chatbot!"
 			]
 		},
-		 {
+		{
 			"intent": "who_is_jared",
 			"utterances": [
 				"who is Jared",
@@ -859,7 +859,7 @@
 				"who's Jared"
 			],
 			"answers": [
-			"Jared is my creator, you can find more of his work published on github <a href='https://github.com/MarketingPipeline'>here</a>"
+				"Jared is my creator, you can find more of his work published on github <a href='https://github.com/MarketingPipeline'>here</a>"
 			]
 		},
 		{
@@ -2016,7 +2016,7 @@
 			"answers": [
 				"I'm a chatbot. But not that kinda chatbot...."
 			]
-		},	 
+		},
 		{
 			"intent": "user.needsadvice",
 			"utterances": [
@@ -2276,7 +2276,7 @@
 				"show me a photo of cat",
 				"show me picture of a cat"
 			]
-		}, 	 
+		},
 		{
 			"intent": "chatbot_was_funny",
 			"utterances": [
