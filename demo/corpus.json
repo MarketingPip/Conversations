@@ -142,7 +142,7 @@
 				"make me solve a riddle",
 				"tell me a good riddle!"
 			]
-		}, 
+		},
 		{
 			"intent": "agent.calculate_how_many_in",
 			"utterances": [
@@ -629,7 +629,7 @@
 				"tell me the weather for my location",
 				"hows weather for my location"
 			]
-		}, 
+		},
 		{
 			"intent": "agent.what_is_user_location",
 			"utterances": [
@@ -726,7 +726,7 @@
 				"check my ip"
 			]
 		},
-	        {
+		{
 			"intent": "agent.what_is_stock_price_for",
 			"utterances": [
 				"what is the stock price",
@@ -741,7 +741,7 @@
 				"price for stock",
 				"price of stock"
 			]
-		},	 
+		},
 		{
 			"intent": "agent.priceofBTC",
 			"utterances": [
@@ -2299,7 +2299,7 @@
 				"show me a photo of something random",
 				"show me picture of something random"
 			]
-		}, 
+		},
 		{
 			"intent": "agent.random_cat_pictures",
 			"utterances": [
@@ -2798,7 +2798,7 @@
 				"jared",
 				"who",
 				"whos",
-				"who's,
+				"who/'s",
 				"quarter",
 				"what should I do?"
 			],
