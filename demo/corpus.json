@@ -506,10 +506,21 @@
 			"intent": "agent.searchWiki",
 			"utterances": [
 				"who is",
+				"can you tell me who",
+				"can you tell me what",
+				"tell who",
+				"tell me what",
 				"tell me about",
 				"info about",
 				"what is a",
 				"who was",
+				"Who is Jared Leto", 
+				"Who is Jared Padalecki", 
+				"Who is Jared Fogle",
+				"Who is Jared Kushner", 
+				"Who is Jared Cook", 
+				"Who is Jared Goff", 
+				"Who is Jared Allen",
 				"what is"
 			]
 		},
@@ -876,9 +887,9 @@
 		{
 			"intent": "who_is_jared",
 			"utterances": [
-				"who is Jared",
-				"whos Jared",
-				"who's Jared"
+				"who is Jared?",
+				"whos Jared?",
+				"who's Jared?"
 			],
 			"answers": [
 				"Jared is my creator, you can find more of his work published on github <a href='https://github.com/MarketingPipeline'>here</a>"
