@@ -2204,6 +2204,39 @@
 			]
 		},
 		{
+			"intent": "agent.random_dog_pictures",
+			"utterances": [
+				"show me a picture of a dog",
+				"i wanna see a dog picture",
+				"show me random dog pic",
+				"show random dog photo",
+				"show photo of a dog",
+				"show me dog photos",
+				"show picture of dog",
+				"show doggy photo",
+				"show doggy picture",
+				"I wanna see a doggy",
+				"show me a photo of dog",
+				"show me picture of a dog"
+			]
+		},
+		{
+			"intent": "agent.random_cat_pictures",
+			"utterances": [
+				"show me a picture of a cat",
+				"i wanna see a cat picture",
+				"show me random cat pic",
+				"show random cat photo",
+				"show photo of a cat",
+				"show me cat photos",
+				"I wanna see a kitty photo",
+				"show me kitty photo",
+				"show picture of cat",
+				"show me a photo of cat",
+				"show me picture of a cat"
+			]
+		}, 	 
+		{
 			"intent": "chatbot_was_funny",
 			"utterances": [
 				"lol",
