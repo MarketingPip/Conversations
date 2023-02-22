@@ -2426,6 +2426,23 @@
 			]
 		},
 		{
+			"intent": "agent.get_user_new_desktop_wallpaper",
+			"utterances": [
+				"show me a random desktop wallpaper",
+				"i wanna see a random desktop wallpaper",
+				"show me random desktop wallpaper",
+				"show random desktop wallpaper",
+				"show random desktop wallpaper pic",
+				"i need a need desktop wallpaper pic",
+				"i need a new desktop wallpaper",
+				"give me a new desktop wallpaper",
+				"give me a new desktop background",
+				"i need a new desktop background pic",
+				"give me a random desktop wallpaper",
+				"show me picture of a random desktop wallper"
+			]
+		}, 
+		{
 			"intent": "agent.random_cat_pictures",
 			"utterances": [
 				"show me a picture of a cat",
