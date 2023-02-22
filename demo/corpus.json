@@ -723,9 +723,49 @@
 				"tell me the date",
 				"what is the current date",
 				"what is the date right now?",
+				"what date are we living in",
 				"what date is it"
 			]
 		},
+		{
+			"intent": "agent.what_is_the_day",
+			"utterances": [
+				"tell me what day it is today",
+				"tell me the day today",
+				"what is the current day",
+				"what is the day right now?",
+				"what day is it right now",
+				"what day are we in",
+				"what day are we living in",
+				"what day is it"
+			]
+		}, 
+		{
+			"intent": "agent.what_is_the_month",
+			"utterances": [
+				"tell me what month it is",
+				"tell me the month",
+				"what is the current month",
+				"what is the month right now?",
+				"what month are we living in",
+				"what month are we in",
+				"what month is it right now",
+				"what month is it"
+			]
+		},  
+		{
+			"intent": "agent.what_is_the_year",
+			"utterances": [
+				"tell me what year it is",
+				"tell me the year",
+				"what year are we in",
+				"what is the current year",
+				"what is the year right now?",
+				"what year are we living in",
+				"what year is it right now",
+				"what year is it"
+			]
+		},  	 
 		{
 			"intent": "agent.whomadeyou",
 			"utterances": [
