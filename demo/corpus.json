@@ -445,7 +445,7 @@
 				"what can you help me with"
 			],
 			"answers": [
-				"I can search various websites! Such as Google, Reddit, Hulu (too many too list!).. Check Bitcoin & stock prices! Tell you your IP! Tell you the time or date! Tell you a various jokes including knock knock jokes, random facts, quotes, quotes by a author! Find a definition of a word! Get weather reports for you! Suggest what you should wear based on the weather even! Flip a coin! Roll a dice! Set a timer for you! Chat with you & keep you company! And much more! Keep in mind I am still learning tho!"
+				"I can search various websites! Such as Google, Reddit, Hulu (too many too list!).. Find info for you about people or things! Check Bitcoin & stock prices! Tell you your IP! Tell you the time or date! Tell you a various jokes including knock knock jokes, random facts, quotes, quotes by a author! Find a definition of a word! Get weather reports for you! Suggest what you should wear based on the weather even! Flip a coin! Roll a dice! Set a timer for you! Chat with you & keep you company! And so much more! Keep in mind I am still learning tho!"
 			]
 		},
 		{
@@ -475,6 +475,8 @@
 				"I can tell you a random fact about dogs!",
 				"I can tell you a random fact about cats!",
 				"I can tell you a random fact!",
+				"I can tell you info about a person! eg ('who is Eminem?')",
+				"I can tell you info about things! eg ('what is coding?')",	
 				"I can show you a random picture of a dog!",
 				"I can show you a picture of a dog by breed!",
 				"I can show you a random picture of a cat!",
@@ -527,6 +529,14 @@
 				"how do i make",
 				"how do i create",
 				"how do i build",
+				"how to bake",
+				"how do i bake",
+				"how do I cook",
+				"how to cook",
+				"how to code",
+				"how do I code",
+				"how can I fix",
+				"how can I code",
 				"how to fix",
 				"how do i",
 				"how to",
@@ -582,6 +592,19 @@
 				"info about",
 				"what is a",
 				"who was",
+				"what is a bitcoin",
+				"what is a btc",
+				"what is bitcoin",
+				"tell me what bitcoin is",
+				"can you tell me what BTC is",
+				"what is a bit coin",
+				"what is bit coin",
+				"tell me info about what bitcoin is?",
+				"tell me info what bitcoin is?",
+				"tell me what a bitcoin is?",
+				"tell me what bitcoin is?",
+				"tell me what BTC is?",
+				"what is a bitcoin?",
 				"Who is Jared Leto", 
 				"Who is Jared Padalecki", 
 				"Who is Jared Fogle",
@@ -2879,6 +2902,11 @@
 				"whos",
 				"who/'s",
 				"quarter",
+				"sadsadssddsad",
+				"i dmsfmfmsdfsdf msa",
+				"sddds asadasd adfda sa",
+				"ppppppppsdfdsfdsfdsffds",
+				"zjhdfgjkfgdfdfkdfgfjd",
 				"what should I do?"
 			],
 			"answers": [
