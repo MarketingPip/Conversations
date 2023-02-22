@@ -106,8 +106,7 @@
 		{
 			"intent": "how_did_agent_know_that",
 			"utterances": [
-				"how did you know that?",
-				"how did you know how to do that?"
+				"how did you know that?"
 			],
 			"answers": [
 				"How did I know what?"
@@ -116,8 +115,7 @@
 		{
 			"intent": "how_did_agent_do_that",
 			"utterances": [
-				"how did you do that?",
-				"how can you do do that?"
+				"how did you do that?"
 			],
 			"answers": [
 				"How did I do what?"
@@ -146,6 +144,11 @@
 				"calculate this for me",
 				"divide this for me",
 				"multiply this for me",
+				"solve this equation for me",
+				"solve this for me",
+				"solve 2 + 2",
+				"solve this math for me",
+				"solve the answer for this 2 + 2",
 				"calculate whatever",
 				"can you add this for me",
 				"change 2 gallons to litres",
@@ -202,6 +205,25 @@
 				"I am just a virtual chatbot! I am limited to my skills! :("
 			]
 		},
+		{
+			"intent": "user_wants_to_calculate_something",
+			"utterances": [
+				"can you add some math for me?",
+				"can you mutiply some math for me?",
+				"can you multiply some math for me?",
+				"can you divide some math for me?",
+				"can you calculate math for me?",
+				"can you do some math for me?",
+				"can you solve some math for me?",
+				"can you add something for me?",
+				"can you calculate something for me?",
+				"can you multiply something for me?",
+				"can you divide something for me?"
+			],
+			"answers": [
+				"What would you like to calculate? Example(s) add 1 + 1, convert 5 litres to gallons."
+			]
+		}, 
 		{
 			"intent": "agent.randomfacts",
 			"utterances": [
