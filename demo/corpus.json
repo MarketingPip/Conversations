@@ -484,6 +484,22 @@
 			]
 		},
 		{
+			"intent": "user_asked_how_to_do_things_agent_does_not_know",
+			"utterances": [
+				"how do I fix",
+				"how do i make",
+				"how do i create",
+				"how do i build",
+				"how to fix",
+				"how do i",
+				"how to",
+				"how to make"
+			],
+			"answers": [
+				"I am not to sure how to do that! You can try & search various websites by typing the following example.. 'search Google for how do I learn code' <br> or you can also search Wolframalpha by saying stuff like 'how do i multiply'"
+			]
+		}, 
+		{
 			"intent": "agent.wolframalpha_howdoi",
 			"utterances": [
 				"how do i do bedmas",
@@ -518,6 +534,14 @@
 				"definition for"
 			]
 		},
+		{
+			"intent": "agent.searchWiki_Person",
+			"utterances": [
+				"who is",
+				"tell me about",
+				"what is"
+			]
+		},	 
 		{
 			"intent": "user_wants_price",
 			"utterances": [
@@ -597,11 +621,28 @@
 				"whats the weather today for",
 				"how is the weather currently?",
 				"can you tell me the weather?",
+				"hows the weather today",
+				"how is the weather",
+				"whats the weather like",
 				"weather status for",
 				"tell me the weather for",
 				"hows weather for"
 			]
 		},
+			{
+			"intent": "agent.what_is_user_location",
+			"utterances": [
+				"What is my location",
+				"whats my location",
+				"can you tell me my location",
+				"tell me my location",
+				"find my location",
+				"get my location",
+				"fetch my location",
+				"check my location"
+				"tell me my location"
+			]
+		},	 
 		{
 			"intent": "agent.knock_knock_jokes",
 			"utterances": [
