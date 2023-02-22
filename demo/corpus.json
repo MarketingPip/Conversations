@@ -615,7 +615,7 @@
 			]
 		},
 		{
-			"intent": "agent.weathersuggestions_general",
+			"intent": "agent.weather_status_in_location",
 			"utterances": [
 				"What is the weather like for",
 				"whats the weather today for",
@@ -625,10 +625,40 @@
 				"how is the weather",
 				"whats the weather like",
 				"weather status for",
+				"hows the weather in",
+				"tell me the eather in",
+				"whats the weather look like in",
+				"weather status in",
 				"tell me the weather for",
 				"hows weather for"
 			]
 		},
+		{
+			"intent": "agent.weather_status_for_user_location",
+			"utterances": [
+				"What is the weather like for my location",
+				"whats the weather today for my location",
+				"how is the weather currently where I live?",
+				"can you tell me the weather status where I live?",
+				"hows the weather today where I live",
+				"hows the weather for where I live",
+				"how is the weather for where I live",
+				"how is the weather for my location",
+				"hows weather where I live",
+				"how is the weather where I live",
+				"tell me weather status for where I live",
+				"whats the weather like for my location",
+				"weather status for my location",
+				"tell me the weather for my location",
+				"hows weather for my location",
+				"hows the weather today for my location",
+				"how is the weather for my location",
+				"whats the weather like for my location",
+				"weather status for my location",
+				"tell me the weather for my location",
+				"hows weather for my location"
+			]
+		}, 
 		{
 			"intent": "agent.what_is_user_location",
 			"utterances": [
