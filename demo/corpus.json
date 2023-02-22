@@ -535,7 +535,7 @@
 			]
 		},
 		{
-			"intent": "agent.searchWiki_Person",
+			"intent": "agent.searchWiki",
 			"utterances": [
 				"who is",
 				"tell me about",
@@ -750,6 +750,22 @@
 				"check my ip"
 			]
 		},
+	        {
+			"intent": "agent.what_is_stock_price_for",
+			"utterances": [
+				"what is the stock price",
+				"stock price for",
+				"stock price of",
+				"tell me stock price",
+				"stock price",
+				"fetch my ip",
+				"price of APPL stock",
+				"price of XXXX stock",
+				"price for APPL stock",
+				"price for stock",
+				"price of stock"
+			]
+		},	 
 		{
 			"intent": "agent.priceofBTC",
 			"utterances": [
@@ -2291,6 +2307,23 @@
 				"show me picture of a dog"
 			]
 		},
+		{
+			"intent": "agent.show_me_a_random_picture",
+			"utterances": [
+				"show me a random picture",
+				"i wanna see a random picture",
+				"show me random pic",
+				"show random photo",
+				"show random pic",
+				"show photo of something random",
+				"show me random photos",
+				"show random picture",
+				"show a random photo",
+				"I wanna see a random photo",
+				"show me a photo of something random",
+				"show me picture of something random"
+			]
+		}, 
 		{
 			"intent": "agent.random_cat_pictures",
 			"utterances": [
