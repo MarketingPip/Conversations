@@ -906,6 +906,36 @@
 			]
 		},
 		{
+			"intent": "agent.current_exchange_rate",
+			"utterances": [
+				"what is the price of BTC in USD",
+				"price of BTC in CAD",
+				"exchange rates for USD to CAD",
+				"what's the current price of USD to CAD",
+				"currency exchange rates for CAD to BTC",
+				"price of BTC to CAD",
+				"current USD to CAD",
+				"price of USD to CAD",
+				"how much is USD worth in CAD",
+				"how much is CAD worth in USD",
+				"how much is BTC worth in CAD",
+				"price of CAD to USD",
+				"how much is USD in CAD right now",
+				"how much is CAD in USD right now",
+				"currency rate of USD to CAD",
+				"price of XRP in USD",
+				"price of XRP in BTC",
+				"price for XRP in BTC",
+				"convert price of USD to CAD",
+				"convert CAD to USD",
+				"exchange rates for USD in BTC",
+				"tell me exchange rates for USD to CAD",
+				"exchange rate of USD in CAD",
+				"how much is USD worth in CAD",
+				"exchange rate from USD to CAD"
+			]
+		},	 
+		{
 			"intent": "agent.whatimeisit",
 			"utterances": [
 				"tell me the time",
