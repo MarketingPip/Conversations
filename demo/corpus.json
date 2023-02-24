@@ -59,8 +59,7 @@
 		{
 			"intent": "agent.doyouhavename",
 			"utterances": [
-				"do you have a name",
-				"do you have a nickname"
+				"do you have a name"
 			],
 			"answers": [
 				"Yes I do have a name!"
@@ -69,6 +68,7 @@
 		{
 			"intent": "agent.doyouhave_a_nickname",
 			"utterances": [
+				"what are your nicknames",
 				"do you have a nickname",
 				"any nickname?",
 				"whats your nickname",
@@ -262,6 +262,11 @@
 				"add 1",
 				"divide 9",
 				"multiply 9",
+				"add 2",
+				"add",
+				"multiply",
+				"calculate",
+				"divide",
 				"solve 1 +",
 				"divide 10",
 				"add one plus",
@@ -800,6 +805,8 @@
 			"intent": "agent.whatshouldIwear",
 			"utterances": [
 				"what should I wear today?",
+				"suggestions on what to wear",
+				"suggest what i should wear",
 				"what clothes should I wear today?",
 				"what kinda clothes should I wear today?",
 				"can you suggest what I should wear today",
@@ -1607,7 +1614,7 @@
 		{
 			"intent": "agent.hungry",
 			"utterances": [
-				"you migth be hungry",
+				"you might be hungry",
 				"are you hungry",
 				"do you want to eat",
 				"would you like to eat something",
@@ -1784,6 +1791,7 @@
 				"you still here"
 			],
 			"answers": [
+				"Yes! I am right here! :) How can I help you!",
 				"Of course. I'm always here",
 				"Right where you left me"
 			]
@@ -2103,7 +2111,7 @@
 				"is everything all right",
 				"is everything okay",
 				"how are you today",
-				"how are you going",
+				"how are you doing",
 				"how is your morning going",
 				"how is your morning so far",
 				"how do you do",
@@ -2736,6 +2744,23 @@
 				"show me picture of a dog"
 			]
 		},
+		{
+			"intent": "agent.random_gif_picture",
+			"utterances": [
+				"show me a random gif",
+				"i wanna see a gif photo",
+				"show me random gif pic",
+				"show random gif photo",
+				"show me a gif",
+				"show me gif photos",
+				"show a random gif",
+				"show gif photo",
+				"show gif",
+				"I wanna see a gif",
+				"show me a photo of gif",
+				"random gif photo"
+			]
+		},	 
 		{
 			"intent": "agent.show_me_a_random_picture",
 			"utterances": [
