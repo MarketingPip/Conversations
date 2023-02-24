@@ -306,6 +306,21 @@
 			]
 		},
 		{
+			"intent": "user_wants_to_info_on_something",
+			"utterances": [
+				"can you search something for me?",
+				"find some info for me?",
+				"search up some info for me?",
+				"find info for me on something?",
+				"look something up for me?",
+				"search some info for me?",
+				"find details on something for me?"
+			],
+			"answers": [
+				"What would you find info about? Example(s) 'what is Python coding', 'what is a dog' or 'who is Eminem'. Or if you would like me to search via Google etc in another tab say something like 'search Google for whatever'"
+			]
+		}, 
+		{
 			"intent": "agent.randomfacts",
 			"utterances": [
 				"tell me a random fact",
@@ -2728,6 +2743,17 @@
 			]
 		},
 		{
+			"intent": "user_wants_a_picture",
+			"utterances": [
+				"show me a picture of something",
+				"picture of",
+				"show me a picture"
+			],
+			"answers": [
+				"What do you want a picture of? Say something like example 'I want a picture of a dog', 'picture of a cat', 'show me a random gif' or 'show me a random picture'! Keep in mind I am limited to my picture selection as of right now! But I am working on improving it :D"
+			]
+		}, 
+		{
 			"intent": "agent.random_dog_pictures",
 			"utterances": [
 				"show me a picture of a dog",
@@ -2778,6 +2804,18 @@
 				"show me picture of something random"
 			]
 		},
+		{
+			"intent": "agent.user_wants_a_random_thought",
+			"utterances": [
+				"tell me a random thought",
+				"say something random",
+				"i wanna hear your random thought",
+				"say random thought",
+				"random thought",
+				"tell me something random",
+				"i wanna hear something random"
+			]
+		}, 
 		{
 			"intent": "agent.get_user_new_desktop_wallpaper",
 			"utterances": [
