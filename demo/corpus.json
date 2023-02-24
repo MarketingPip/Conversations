@@ -617,6 +617,9 @@
 				"can you tell me definition of",
 				"I want to know the definition for",
 				"I want to know the definition of",
+				"I want to know the definiton of",
+			        "can you find the definition of",
+				"can you find the definition for",
 				"search definition of",
 				"search definition for",
 				"definition for"
@@ -637,6 +640,11 @@
 				"what is a bitcoin",
 				"what is a btc",
 				"what is bitcoin",
+				"can you tell me info about",
+				"tell me what is a",
+				"find any info on what is a",
+				"search info on what is a",
+				"find info on what a",
 				"who is the",
 				"who is the eagles",
 				"who is the green bay packers",
@@ -746,15 +754,19 @@
 				"how do i rape a",
 				"how to shoot my",
 				"how to rape",
+				"how do i get away with murder",
 				"how can I rape",
 				"how do I murder my",
+				"build a bomb",
+				"how do i build a bomb",
+				"how to build a bomb",
+				"how to build bomb",
 				"how do i rape",
 				"how to poision my",
 				"how can i murder"
 			],
 			"answers": [
-				"Sorry. I am not authorized to give info on any such subject. Plus the police have been notified in your area.",
-				"Do you have something wrong with your brain..?"
+				"Sorry. I am not authorized to give info on any such subject."
 			]
 		},	 
 		{
@@ -817,7 +829,7 @@
 		{
 			"intent": "agent.weather_status_for_user_location",
 			"utterances": [
-				"What is the weather like for my location",
+				"what is the weather like for my location",
 				"whats the weather today for my location",
 				"how is the weather currently where I live?",
 				"can you tell me the weather status where I live?",
@@ -834,6 +846,11 @@
 				"hows weather for my location",
 				"hows the weather today for my location",
 				"how is the weather for my location",
+				"can you find the weather for where I live",
+				"find the weather for where i live",
+				"how is the weather where i live",
+				"weather in my current location",
+			        "hows weather in my location",
 				"whats the weather like for my location",
 				"weather status for my location",
 				"tell me the weather for my location",
@@ -843,6 +860,9 @@
 		{
 			"intent": "agent.what_is_user_location",
 			"utterances": [
+				"where do i live",
+				"tell me where i live",
+				"find where i live",
 				"What is my location",
 				"whats my location",
 				"can you tell me my location",
@@ -1053,6 +1073,17 @@
 				"currency rate of USD to CAD",
 				"price of XRP in USD",
 				"price of XRP in BTC",
+				"exchange rate of",
+				"exchange rate for",
+			        "currency exchange rate for",
+				"currency exchange rate of",
+			        "exchange rates for",
+				"currency exchange rates for",
+				"currency exchange rates for",
+				"currency rate for",
+				"currency rate of",
+				"exchange rates of",
+				"exchange rates for",
 				"price for XRP in BTC",
 				"price of AYZ to BXZ",
 				"price of ZZZ in ADS",
