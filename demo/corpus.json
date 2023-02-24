@@ -539,17 +539,27 @@
 				"I can show you a random picture of a dog!",
 				"I can show you a picture of a dog by breed!",
 				"I can show you a random picture of a cat!",
+				"I can show you a random GIF!",
+				"I can give you a random writing prompt to help with with your writing task!",
+				"I can keep you company as long as you need me to! :)",
+				"I can tell you the current price of a bitcoin!",
+	                        "I can find the definition of a word for you!",
+				"I can help you with a random writing prompt to help with a writing task!",
+				"I can search info on subjects for you! example ('what is COVID-19')",
 				"I can show you a picture of a cat by breed!",
 				"I can show you a picture of a quote!",
 				"I can tell you a funny joke!",
 				"I can solve very complex math problems for you via eg ('calculate WHATEVER here')",
 				"Wow! Do I really need to list them all? There is so many! Why don't you just try something's out!",
 				"I can roll a dice for you!",
+				"I calculate some math problems for you!",
+				"I can flip a quarter for you!",
 				"I can flip a coin for you!",
 				"I can generate a random number for you!",
 				"I can search up stock prices for you! eg ('stock price for APPL')",
 				"I can pick a random number from eg ('pick a random number from 10 to a million')",
 				"I can tell you a riddle!",
+				"I can find currency exchange rate info for you! eg ('exchange rate of USD today', 'exchange rate of $1 USD to CAD',  'exchange rate of USD to CAD')",
 				"I can tell you a knock knock joke!",
 				"I can tell you a Chuck Norris joke / fact ! :D",
 				"I can get the weather forecast!",
@@ -574,7 +584,7 @@
 				"how do I search things",
 				"tell me how to search things",
 				"how to search things",
-				"how to search??",
+				"how to search",
 				"how I search a website"
 			],
 			"answers": [
@@ -596,6 +606,8 @@
 				"how do I code",
 				"how can I fix",
 				"how can I code",
+				"how can I repair",
+				"how do i repair",
 				"how to fix",
 				"how do i",
 				"how to",
@@ -731,6 +743,8 @@
 		{
 			"intent": "user_wants_price",
 			"utterances": [
+				"price of",
+				"current price",
 				"tell me the price",
 				"i want the price",
 				"price for",
@@ -1058,6 +1072,10 @@
 				"price of a BTC in USD",
 				"price of a BTC in CAD",
 				"cost of bitcoin",
+				"price for BTC",
+				"price of bit coin",
+				"bitcoin prices today",
+				"price of bitcoin",
 				"what is the cost for a bitcoin",
 				"what is the price of a bitcoin in USD",
 				"price for a bitcoin in EUR",
@@ -1332,7 +1350,7 @@
 			]
 		},
 		{
-			"intent": "user_is_excited_for_chatbot_updates_changes",
+			"intent": "agent.user_is_excited_for_chatbot_updates_changes",
 			"utterances": [
 				"cant wait to see you get smarter",
 				"i want more commands",
@@ -2820,10 +2838,34 @@
 				"i wanna hear your random thought",
 				"say random thought",
 				"random thought",
+				"tell me your random thoughts",
+				"hear your random thoughts",
 				"tell me something random",
 				"i wanna hear something random"
 			]
-		}, 
+		},
+		{
+			"intent": "agent.user_wants_a_shower_thought",
+			"utterances": [
+				"tell me a random shower thought",
+				"say shower thought",
+				"hear your shower thought",
+				"say random shower thought",
+				"tell me a thought you might have in the shower",
+				"i wanna hear thought you might have in the shower"
+			]
+		},
+		{
+			"intent": "agent.user_wants_a_random_writing_prompt",
+			"utterances": [
+				"tell me a random writing prompt",
+				"random writing prompt",
+				"i need a random writing prompt",
+				"give me a random writing prompt",
+				"generate random writing prompt",
+				"random prompt to help with writing"
+			]
+		},  
 		{
 			"intent": "agent.get_user_new_desktop_wallpaper",
 			"utterances": [
