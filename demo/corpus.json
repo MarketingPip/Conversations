@@ -41,7 +41,7 @@
 			]
 		},
 		{
-			"intent": "agent.today_is_christmas", /// ONLY WILL RUN ON CHRISTMAS DAY!
+			"intent": "agent.today_is_christmas", 
 			"utterances": [
 				"it is christmas today",
 				"merry christmas",
