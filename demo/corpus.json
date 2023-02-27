@@ -3331,6 +3331,25 @@
 			]
 		},
 		{
+			"intent": "agent.random_funny_pictures",
+			"utterances": [
+				"show me a funny picture",
+				"i wanna see a funny picture",
+				"show me random funny pic",
+				"show me a picture of something funny",
+				"show me a picture of a funny photo",
+				"show random funny photo",
+				"show photo of something funny",
+				"show me funny photo",
+				"i want to see a funny picture",
+				"show me a funny pic",
+				"show doggy picture",
+				"I want see a photo of something funny",
+				"can you show me a funny picture",
+				"show me random funny photo"
+			]
+		}, 
+		{
 			"intent": "agent.random_gif_picture",
 			"utterances": [
 				"show me a random gif",
@@ -3347,6 +3366,27 @@
 				"random gif photo"
 			]
 		},
+		{
+			"intent": "agent.random_meme_picture",
+			"utterances": [
+				"show me a random meme",
+				"i wanna see a meme",
+				"show me random meme",
+				"show me a meme",
+				"i wanna see a meme",
+				"i want to see a meme picture",
+				"show me a picture of a random meme",
+				"i wanna see a random meme",
+				"i want you to show me a meme",
+				"i want to see a picture of a random meme",
+				"show me a picture of a meme",
+				"show a random meme",
+				"show meme photo",
+				"show me meme",
+				"i want see a meme",
+				"random meme photo"
+			]
+		}, 
 		{
 			"intent": "agent.show_me_a_random_picture",
 			"utterances": [
