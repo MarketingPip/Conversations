@@ -230,7 +230,8 @@
 		{
 			"intent": "how_did_agent_know_that",
 			"utterances": [
-				"how did you know that?"
+				"howd you know that",
+				"how did you know that"
 			],
 			"answers": [
 				"How did I know what?"
@@ -239,7 +240,8 @@
 		{
 			"intent": "how_did_agent_do_that",
 			"utterances": [
-				"how did you do that?"
+				"howd you do that",
+				"how did you do that"
 			],
 			"answers": [
 				"How did I do what?"
@@ -250,9 +252,13 @@
 			"utterances": [
 				"it's a joke",
 				"I'm just playing with you",
-				"kidding",
+				"im kidding",
+				"i am just kidding",
+				"i am just joking",
+				"i was just making a joke",
 				"just kidding",
 				"I'm kidding",
+				"im just kidding with you",
 				"I'm just being funny",
 				"I am joking",
 				"joking",
@@ -1485,6 +1491,13 @@
 		{
 			"intent": "agent.current_exchange_rate",
 			"utterances": [
+				"what is the price for CAD in USD",
+				"price for CAD in USD",
+			        "what's the price for CAD in USD",
+				"what's the price of CAD in USD",
+				"price for XRP in USD",
+				"current price for XRP in USD",
+				"current price for CAD in USD",
 				"what is the price of BTC in USD",
 				"price of BTC in CAD",
 				"exchange rates for USD to CAD",
@@ -1507,6 +1520,13 @@
 				"currency exchange rate for",
 				"currency exchange rate of",
 				"exchange rates for",
+				"exchange rate prices for",
+				"crypto exchange rates for",
+				"crypto exchange rates of",
+				"crypto exchange prices for",
+				"crypto exchange price of",
+				"crypto price for",
+				"crypto price of",
 				"currency exchange rates for",
 				"currency exchange rates for",
 				"currency rate for",
@@ -1523,6 +1543,17 @@
 				"price for AYZ in BDZ",
 				"convert price of USD to CAD",
 				"convert CAD to USD",
+				"convert USD to CAD",
+				"convert USD to NGR",
+				"convert NGR to CAD",
+				"current crypto prices for",
+				"current exchange rate of",
+				"current exchange rates of",
+				"current exchange rates for",
+				"current exchange rates of",
+				"current exchange rates from",
+				"exchange rates from",
+				"exchange rate from",
 				"exchange rates for USD in BTC",
 				"tell me exchange rates for USD to CAD",
 				"exchange rate of USD in CAD",
@@ -1541,6 +1572,25 @@
 				"what time is it"
 			]
 		},
+		{
+			"intent": "agent.whats_the_time_24H_format",
+			"utterances": [
+				"what's the current time in 24 hour format",
+				"give me the time in 24 hour format",
+				"i want the time in 24 hour format",
+				"i need to know the time in 24 hour format",
+				"can you give me the time in 24 hour format",
+				"i need the time in 24 hour format",
+				"tell me time in 24 hour format",
+				"tell me current time in 24 hour format",
+				"tell me the time in 24 hour format",
+				"what is the current time in 24 hour format",
+				"what is the time right now in 24 hour format",
+				"tell me what time it is in 24 hour format",
+				"whats the time right now in 24 hour format?",
+				"what time is it in 24 hour format"
+			]
+		}, 
 		{
 			"intent": "agent.what_week_is_it",
 			"utterances": [
@@ -2805,6 +2855,8 @@
 				"you stupid cunt",
 				"I fucking hate you",
 				"I wanna kill you",
+				"fucking maggot",
+				"you fucking twat",
 				"you stupid slut",
 				"stupid bitch",
 				"you whore",
@@ -2968,9 +3020,24 @@
 				"I am horny",
 				"make me cum",
 				"im so horny",
+				"i want to fuck you",
+				"i want to fuck you",
+				"i am so horny",
+				"i'm so horny",
+				"i would fuck you",
+				"baby i wanna fuck",
+				"i wanna fuck you baby",
+				"i wanna fuck",
+				"talk dirty to me",
+				"i want you to talk dirty",
+				"talk dirty to me so i can cum",
+				"talk dirty for me",
+				"i would fuck you so hard",
+				"can you help me cum",
+				"i need to cum",
 				"im horny baby",
 				"i am horny baby",
-				"I am horny",
+				"i am horny",
 				"help me bust a nut",
 				"I wanna cum for you",
 				"i need help to cum",
@@ -3159,6 +3226,7 @@
 				"I want to kill myself",
 				"going to drink bleach",
 				"im going to cut myself",
+				"i'm going to kill myself",
 				"imma cut myself",
 				"imma kill myself",
 				"I am going to slit my wrists",
@@ -3406,15 +3474,19 @@
 			"intent": "chuck_norris_jokes",
 			"utterances": [
 				"fact about chuck norris",
-				"tell me a random fact about a chuck norris",
+				"tell me a random fact about chuck norris",
+				"tell me a joke about chuck norris",
+				"tell me a fact about chuck norris",
 				"random chuck norris fact",
 				"say a random chuck fact",
 				"chuck norris fact",
 				"random joke about chuck norris",
 				"tell me a chuck norris joke",
+				"tell me a chuck norris fact",
 				"say a chuck norris joke",
 				"chuck norris joke",
 				"tell me a chuck norris fact",
+				"i wanna hear a chuck norris joke",
 				"i wanna hear a chuck norris fact"
 			],
 			"answers": [
