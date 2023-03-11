@@ -32,6 +32,26 @@
 			]
 		},
 		{
+			"intent": "who_let_the_dogs_out",
+			"utterances": [
+				"tom who let the dogs out",
+				"who let the dogs out"
+			],
+			"answers": [
+				"Who, who, who, who"
+			]
+		}, 
+		{
+			"intent": "what_does_the_fox_say",
+			"utterances": [
+				"tom what does the fox say",
+				"what does the fox say"
+			],
+			"answers": [
+				"Mama-dum-day-do."
+			]
+		},  
+		{
 			"intent": "user_introduced_himself",
 			"utterances": [
 				"hi my name is",
