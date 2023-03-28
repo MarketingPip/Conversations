@@ -3691,6 +3691,42 @@
 			]
 		},
 		{
+			"intent": "beatbox_for_user",
+			"utterances": [
+				"can you beatbox",
+				"beatbox for me",
+				"i want you to beatbox",
+				"beat box for me",
+				"can you beat box for me",
+				"i want you to beat box"
+			],
+			"answers": [
+				"Boots and cats, boots and cats."
+			]
+		},
+		{
+			"intent": "bark_for_user",
+			"utterances": [
+				"can you bark",
+				"bark for me",
+				"make a dog noise",
+				"can you make a dog noise for me",
+				"can you bark like a dog",
+				"make a barking noise",
+				"i want you to bark",
+				"bark like a dog for me",
+				"bark like a dog",
+				"can you bark like a dog for me",
+				"bark like a doggy for me",
+				"make a bark like a dog"
+			],
+			"answers": [
+				"Woof, woof",
+				"Ruff, ruff",
+				"Arf, arf"
+			]
+		}, 
+		{
 			"intent": "user_wants_a_picture",
 			"utterances": [
 				"show me a picture of something",
