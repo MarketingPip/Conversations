@@ -1147,6 +1147,9 @@
 				"what is stock",
 				"tell me what is a stock",
 				"tell me what is a",
+				"what is a tongue",
+				"what is tongue twister",
+				"what's a tongue",
 				"find any info on what is a",
 				"search info on what is a",
 				"find info on what a",
@@ -1182,6 +1185,10 @@
 				"what is a btc",
 				"what is a xrp",
 				"what is a usd",
+				"what is Apple",
+				"what is Yahoo",
+				"what is google",
+				"what is wal-mart",
 				"what is a currency exchange",
 				"what is a exchange rate",
 				"what is a usd",
@@ -1450,9 +1457,13 @@
 		{
 			"intent": "user_wants_a_tongue_twiser",
 			"utterances": [
+				"give a tongue twister to me",
+				"say tongue twister",
+				"any good tongue twisters", 
 				"tell me a tongue twister",
 				"i wanna hear a tongue twister",
 				"give me a tongue twister",
+				"can i hear a tongue twister",
 				"do you know any tongue twisters",
 				"do you have any tongue twisters"
 
@@ -3421,6 +3432,8 @@
 				"talk dirty to me so i can cum",
 				"talk dirty for me",
 				"i would fuck you so hard",
+				"talk dirty for me",
+				"make me horny",
 				"can you help me cum",
 				"i need to cum",
 				"im horny baby",
