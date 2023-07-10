@@ -5,6 +5,8 @@
 			"intent": "agent.whatisname",
 			"utterances": [
 				"whats your name",
+				"tell me what is your name",
+				"can you please tell me what is your name",
 				"who am i speaking with",
 				"who am i chatting with",
 				"who am i talking with",
@@ -26,6 +28,8 @@
 				"what name do i call you by",
 				"what name do you prefer",
 				"what name should I call you",
+				"what is it I should call you by",
+				"what is it i should call you",
 				"what name do you want me to call you",
 				"what should I call you by"
 			],
@@ -1322,6 +1326,7 @@
 				"tell me the price",
 				"i want the price",
 				"price for",
+				"whats the price of",
 				"what is the price of"
 			],
 			"answers": [
@@ -2075,10 +2080,14 @@
 			"utterances": [
 				"tell me the week",
 				"what is the current week",
+				"Which week of the year is this",
 				"what is the week right now?",
 				"tell me what week it is",
+				"what week is it in the year?",
+				"Identify the week for me.",
+				"let me know what week it is.",
 				"whats the week right now?",
-				"what week of the year of is it",
+				"what week of the year is it",
 				"what week is it"
 			]
 		},
@@ -2095,6 +2104,7 @@
 				"whats the current date",
 				"can you tell me the date",
 				"what is the date right now?",
+				"what date is it at the moment?",
 				"what date are we living in",
 				"what date is it"
 			]
@@ -2105,6 +2115,7 @@
 				"tell me what day it is today",
 				"tell me the day today",
 				"what is the current day",
+				"what day of the week is it at the moment?",
 				"what is the day right now?",
 				"what day is it right now",
 				"what day are we in",
